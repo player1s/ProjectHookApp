@@ -1,0 +1,14 @@
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\bin\Debug\netcoreapp2.1\WebServicesT2.deps.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\bin\Debug\netcoreapp2.1\WebServicesT2.runtimeconfig.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\bin\Debug\netcoreapp2.1\WebServicesT2.runtimeconfig.dev.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\bin\Debug\netcoreapp2.1\WebServicesT2.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\bin\Debug\netcoreapp2.1\WebServicesT2.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.csprojAssemblyReference.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.csproj.CoreCompileInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.RazorAssemblyInfo.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.RazorAssemblyInfo.cs
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.AssemblyInfoInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.AssemblyInfo.cs
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.RazorTargetAssemblyInfo.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\obj\Debug\netcoreapp2.1\WebServicesT2.pdb
