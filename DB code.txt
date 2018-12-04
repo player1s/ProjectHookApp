@@ -1,0 +1,14 @@
+create schema "public";
+
+set search_path = 'public';
+
+create domain FirstName varchar(30);
+create domain LastName varchar(30);
+create domain Gender varchar(20);
+create domain Description varchar(9999);
+create domain LocX decimal;
+create domain LocY decimal;
+create domain PhoneNumber integer;
+create domain OTP integer;
+
+create table Users(UserID serial, Firstname FirstName, LastName LastName, Gender Gender, Description Description, LocX LocX, LocY LocY, PhoneNumber PhoneNumber, OTP OTP, PRIMARY KEY(UserID));
