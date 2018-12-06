@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +33,7 @@
         <counts>
           <entry key="cs" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="19" />
           <entry key="jsp" value="1" />
         </counts>
       </usages-collector>
@@ -45,20 +42,20 @@
           <entry key="C#" value="1" />
           <entry key="CSFile" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="19" />
           <entry key="JSP" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3" />
-          <entry key="java" value="2275" />
+          <entry key="java" value="2485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSFile" value="3" />
-          <entry key="JAVA" value="2275" />
+          <entry key="JAVA" value="2485" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,9 +104,9 @@
         <option value="$PROJECT_DIR$/src/WebServicesT2/CalculatorService.java" />
         <option value="$PROJECT_DIR$/src/T2/WebServicesT2/Program.cs" />
         <option value="$PROJECT_DIR$/src/T3/Database.java" />
+        <option value="$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs" />
         <option value="$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java" />
         <option value="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +142,19 @@
               <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T2" type="462c0819:PsiDirectoryNode" />
+              <item name="T2T3SocketClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="T3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -172,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Database">
+  <component name="RunManager" selected="Application.T3T2SocketServer">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controller" />
       <module name="ProjectHookApp" />
@@ -238,9 +248,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Database" />
-        <item itemvalue="Application.SocketClientTest" />
         <item itemvalue="Application.T3T2SocketServer" />
+        <item itemvalue="Application.SocketClientTest" />
+        <item itemvalue="Application.Database" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Controller" />
       </list>
@@ -253,7 +263,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25167784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25167784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -262,7 +272,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,16 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -342,10 +342,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="323">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

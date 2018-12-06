@@ -10,18 +10,14 @@ public class SocketClientTest
     public static void main(String[] args)
             throws UnknownHostException, IOException
     {
-        int temp;
-        int number;
+        String text;
 
         Scanner sc = new Scanner(System.in);
         Socket s = new Socket("127.0.0.1", 1342);
         Scanner sc1 = new Scanner(s.getInputStream());
-        System.out.println("Enter a number");
-        number = sc.nextInt();
+        System.out.println("Enter a text");
+        text = sc.nextLine();
         PrintStream p = new PrintStream(s.getOutputStream());
-        p.println(number);
-        temp = sc1.nextInt();
-        System.out.print("The result is:");
-        System.out.println(temp);
+        p.println(text);
     }
 }
