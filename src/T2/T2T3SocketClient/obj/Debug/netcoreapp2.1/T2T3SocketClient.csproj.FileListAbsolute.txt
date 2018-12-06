@@ -1,0 +1,11 @@
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.csprojAssemblyReference.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.csproj.CoreCompileInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.AssemblyInfoInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.AssemblyInfo.cs
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\bin\Debug\netcoreapp2.1\T2T3SocketClient.deps.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\bin\Debug\netcoreapp2.1\T2T3SocketClient.runtimeconfig.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\bin\Debug\netcoreapp2.1\T2T3SocketClient.runtimeconfig.dev.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\bin\Debug\netcoreapp2.1\T2T3SocketClient.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\bin\Debug\netcoreapp2.1\T2T3SocketClient.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\T2T3SocketClient\obj\Debug\netcoreapp2.1\T2T3SocketClient.pdb

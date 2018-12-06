@@ -15,7 +15,6 @@ public class T3T2SocketServer
             ServerSocket s1 = new ServerSocket(port);
             System.out.println("server runnin' on port: " + port);
             Socket acceptConn = s1.accept();
-            System.out.println("someone knockin'");
             Scanner sc = new Scanner(acceptConn.getInputStream());
             System.out.println("someone knockin'");
             text = sc.nextLine();

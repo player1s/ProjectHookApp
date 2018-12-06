@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensioons.Logging;
+using Microsoft.Extensions.Logging;
 
 namespace WebServicesT2
 {
