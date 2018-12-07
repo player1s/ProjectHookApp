@@ -8,6 +8,7 @@ using System.Text;
 // communication is established.  
 public class SocketClient  
 {  
+
     public static int Main(String[] args)  
     {  
         StartClient();  
@@ -44,12 +45,20 @@ public class SocketClient
                     sender.RemoteEndPoint.ToString());  
   
                 // Encode the data string into a byte array.    
-                byte[] msg = Encoding.ASCII.GetBytes("This is a test<EOF>... a custom one, best one!!!");  
+                byte[] msg = Encoding.ASCII.GetBytes("MSG1");  
                 Console.WriteLine("msg encoded");
                 
                 // Send the data through the socket.    
                 int bytesSent = sender.Send(msg);  
                 Console.WriteLine("msg sent");
+
+                // Encode the data string into a byte array.    
+                byte[] msg2 = Encoding.ASCII.GetBytes("MSG2");  
+                Console.WriteLine("msg2 encoded");
+                
+                // Send the data through the socket.    
+                int bytesSent2 = sender.Send(msg2);  
+                Console.WriteLine("msg2 sent");
                 // Receive the response from the remote device.  
                 /*  
                 int bytesRec = sender.Receive(bytes);  
