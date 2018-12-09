@@ -173,8 +173,8 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public Integer getOTP(int phoneNumber) {
-        Integer name = null;
+    public String getOTP(String phoneNumber) {
+        String name = null;
         String password = "www";
 
         try (Connection connection = DriverManager.getConnection(
@@ -185,8 +185,8 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
-                    name =  resultSet.getInt("OTP");
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
+                    name =  resultSet.getString("OTP");
 
             }
 

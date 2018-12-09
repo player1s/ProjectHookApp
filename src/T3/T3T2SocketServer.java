@@ -1,29 +1,76 @@
 package T3;
 
 import java.io.IOException;
+import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
-public class T3T2SocketServer
-{
-    public static void main(String[] args) throws IOException
-    {
-        int port = 1342;
-        ServerSocket s1 = new ServerSocket(port);
+public class T3T2SocketServer implements ISocketServer {
+
+    ServerSocket s1 = null;
+    Socket acceptConn = null;
+    String[] msgParts = null;
+
+    @Override
+    public String[] StartUpServer(int port) {
+
+        // default port: 1342;
         String text = "";
 
-        System.out.println("server runnin' on port: " + port);
+        try {
 
-        while(true) {
+             s1 = new ServerSocket(port);
 
-            Socket acceptConn = s1.accept();
-            Scanner sc = new Scanner(acceptConn.getInputStream());
-            text = sc.nextLine();
-            System.out.println("some connected saying:  " + text);
+            System.out.println("server runnin' on port: " + port);
 
+                Socket acceptConn = s1.accept();
+
+
+                Scanner sc = new Scanner(acceptConn.getInputStream());
+                text = sc.nextLine();
+
+            msgParts = text.split(" - ");
+
+                for (int i = 0; i < msgParts.length; i++) {
+                    System.out.println("some connected saying:  " + msgParts[i]);
+                }
+
+            PrintStream p = new PrintStream(acceptConn.getOutputStream());
+            p.println(text);
+            p.println("2");
+
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return msgParts;
+    }
+
+    @Override
+    public void SendLogin(String OTP) {
+
+        PrintStream p = null;
+        try {
+            p = new PrintStream(acceptConn.getOutputStream());
+            p.println(OTP);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void ShutdownServer() {
+        try {
+            s1.close();
+            System.out.println("Shutting down");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
+
+
 
 
 
