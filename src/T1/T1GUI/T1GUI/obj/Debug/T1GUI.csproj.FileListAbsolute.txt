@@ -1,0 +1,15 @@
+C:\Users\Alex\source\repos\T1GUI\T1GUI\bin\Debug\T1GUI.exe.config
+C:\Users\Alex\source\repos\T1GUI\T1GUI\bin\Debug\T1GUI.exe
+C:\Users\Alex\source\repos\T1GUI\T1GUI\bin\Debug\T1GUI.pdb
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.CreateAccount.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.Welcome.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.Login.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.MatchList.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.Properties.Resources.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.exe
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.pdb
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.ChatWindow.resources
+C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.MatchMaker.resources
