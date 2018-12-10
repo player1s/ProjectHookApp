@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="" />
+    <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.assets.cache" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +84,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="918">
               <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,20 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tier1/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -117,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -126,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
-              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+              <caret line="191" selection-start-line="191" selection-end-line="191" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,12 +227,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="T3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tier1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/needed files/postgresql-42.2.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/needed files/gson-2.8.5.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -370,14 +365,14 @@
     <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -394,17 +389,7 @@
     <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -412,6 +397,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

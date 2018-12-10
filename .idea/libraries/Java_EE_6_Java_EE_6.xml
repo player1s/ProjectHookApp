@@ -11,6 +11,7 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
       <root url="jar://$PROJECT_DIR$/needed files/postgresql-42.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/needed files/gson-2.8.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

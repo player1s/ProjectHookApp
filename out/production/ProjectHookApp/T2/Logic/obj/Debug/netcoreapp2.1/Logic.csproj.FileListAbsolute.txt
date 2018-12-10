@@ -1,0 +1,11 @@
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\bin\Debug\netcoreapp2.1\Logic.deps.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\bin\Debug\netcoreapp2.1\Logic.runtimeconfig.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\bin\Debug\netcoreapp2.1\Logic.runtimeconfig.dev.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\bin\Debug\netcoreapp2.1\Logic.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\bin\Debug\netcoreapp2.1\Logic.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.csprojAssemblyReference.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.csproj.CoreCompileInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.AssemblyInfoInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.AssemblyInfo.cs
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\Logic\obj\Debug\netcoreapp2.1\Logic.pdb
