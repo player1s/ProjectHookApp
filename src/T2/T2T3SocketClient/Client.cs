@@ -3,14 +3,11 @@ using System.Net;
 using System.Net.Sockets;  
 using System.Text;  
 
-public class SocketClient  
+public class Client  
 {  
 
-    public static int Main(String[] args)  
-    {  
-        StartClient("Login - 12346789 - 987654321 \n");  
-        return 0;  
-    }  
+    public Client()
+    {} 
   
     public static void StartClient(String toSend)  
     {  
