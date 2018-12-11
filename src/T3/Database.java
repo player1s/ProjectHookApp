@@ -173,7 +173,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getOTP(String phoneNumber) {
+    public String getOTP(int phoneNumber) {
         String name = null;
         String password = "www";
 
@@ -185,8 +185,8 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
-                    name =  resultSet.getString("OTP");
+                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                    name =  resultSet.getString("userPassword");
 
             }
 

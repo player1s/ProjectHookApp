@@ -18,6 +18,7 @@ public class Core {
         IDatabase db = new Database();
         ISocketServer scktSrvr = new T3T2SocketServer();
         int port = 1342;
+        int phonenumber;
         String[] msgParts;
 
         while(true) {
@@ -25,7 +26,8 @@ public class Core {
 
             if(msgParts[0].equals("Login"))
             {
-                scktSrvr.SendLogin(db.getOTP(msgParts[1]));
+                phonenumber = Integer.parseInt(msgParts[1]);
+                scktSrvr.SendLogin(db.getOTP(phonenumber));
                 scktSrvr.ShutdownServer();
 
             }

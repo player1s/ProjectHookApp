@@ -10,7 +10,7 @@ public interface IDatabase {
     String getDescription(int phoneNumber);
     Double getLocX(int phoneNumber);
     Double getLocY(int phoneNumber);
-    String getOTP(String phoneNumber);
+    String getOTP(int phoneNumber);
 
 
 

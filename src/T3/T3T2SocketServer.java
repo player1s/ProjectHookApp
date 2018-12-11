@@ -19,11 +19,11 @@ public class T3T2SocketServer implements ISocketServer {
 
         try {
 
-             s1 = new ServerSocket(port);
+             this.s1 = new ServerSocket(port);
 
             System.out.println("server runnin' on port: " + port);
 
-                Socket acceptConn = s1.accept();
+                this.acceptConn = s1.accept();
 
 
                 Scanner sc = new Scanner(acceptConn.getInputStream());
