@@ -12,6 +12,7 @@ namespace WebServicesT2
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
@@ -20,5 +21,6 @@ namespace WebServicesT2
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+         
     }
 }

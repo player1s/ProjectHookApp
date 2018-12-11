@@ -8,16 +8,16 @@ public class Client
 
     public Client()
     {} 
-
+/*
     public static void Main(String[] args)  
         {
         StartClient("Login - 123456789\n");
         }
-  
-    public static void StartClient(String toSend)  
+*/  
+    public static String Listen(String toSend)  
     {  
         byte[] bytes = new byte[1024];  
-  
+        int bytesRec = 0;
         try  
         {  
            String hostEntry = "localhost";
@@ -51,7 +51,7 @@ public class Client
                 int bytesSent = sender.Send(msg);  
                 Console.WriteLine("msg sent");
 
-                int bytesRec = sender.Receive(bytes);  
+                bytesRec = sender.Receive(bytes);  
                 Console.WriteLine("Echoed test = {0}",  
                     Encoding.ASCII.GetString(bytes, 0, bytesRec)); 
 
@@ -78,5 +78,6 @@ public class Client
         {  
             Console.WriteLine(e.ToString());  
         }  
+        return Encoding.ASCII.GetString(bytes, 0, bytesRec);
     }   
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Logic;
 
 namespace WebServicesT2.Controllers
 {
@@ -14,10 +15,11 @@ namespace WebServicesT2.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-
             
+                    Commands commands = new Commands();
 
-            return new string[] { "value1", "value2" };
+
+            return new string[] { commands.login(123456789), "value2" };
         }
 
         // GET api/values/5

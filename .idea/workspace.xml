@@ -5,26 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectHookApp/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectHookApp/v15/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Login.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Login.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/obj/Release/netcoreapp2.1/Logic.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/obj/Release/netcoreapp2.1/Logic.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/Logic/obj/Release/netcoreapp2.1/Logic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/Logic/obj/Release/netcoreapp2.1/Logic.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Model/IModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Model/Login.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/Logic/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/Logic/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/Model/IModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/Model/Login.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/Client.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
@@ -105,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -297,7 +289,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -306,7 +298,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25248227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,7 +415,7 @@
     <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

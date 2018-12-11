@@ -10,7 +10,7 @@ namespace Logic
         public void login(int phonenumber)
         {
             T2T3SocketClient.Client client = new T2T3SocketClient.Client();
-            Model.Login login = new ModelLogin(phonenumber: phonenumber);
+            Model.Login login = new Model.Login(phonenumber: phonenumber);
             Client.StartClient("Login - " + phonenumber + "\n");  
 
         }
