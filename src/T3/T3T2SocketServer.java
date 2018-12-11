@@ -35,12 +35,6 @@ public class T3T2SocketServer implements ISocketServer {
                     System.out.println("some connected saying:  " + msgParts[i]);
                 }
 
-            PrintStream p = new PrintStream(acceptConn.getOutputStream());
-            p.println(text);
-            p.println("2");
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -51,9 +45,11 @@ public class T3T2SocketServer implements ISocketServer {
     public void SendLogin(String OTP) {
 
         PrintStream p = null;
+        System.out.println("sendlogin entered");
         try {
             p = new PrintStream(acceptConn.getOutputStream());
             p.println(OTP);
+            System.out.println("sent");
         } catch (IOException e) {
             e.printStackTrace();
         }

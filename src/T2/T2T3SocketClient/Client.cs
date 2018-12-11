@@ -8,6 +8,11 @@ public class Client
 
     public Client()
     {} 
+
+    public static void Main(String[] args)  
+        {
+        StartClient("Login - 123456789\n");
+        }
   
     public static void StartClient(String toSend)  
     {  
