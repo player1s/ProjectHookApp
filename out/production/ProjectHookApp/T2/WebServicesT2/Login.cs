@@ -2,28 +2,21 @@
 using Newtonsoft.Json;
 
 namespace Logic
-{   [Serializable]
+{   
     class Login 
     {
-        String command;
-        int phonenumber;
+        public String Command { get; set; }
+        public int PhoneNumber { get; set; }
 
-        public Login (int phonenumber)
-        {
-            command = "Login";
-            this.phonenumber = phonenumber;
-        }
-        public String getCommand() => command;
-        public int getPhoneNumber() => phonenumber;
-        public void setCommand(String command) => this.command = command;
-        public void setPhoneNumber(int phonenumber) => this.phonenumber = phonenumber;
+       public Login()
+       {}
 
-        public string getJson()
-        {
-                    string toSend = JsonConvert.SerializeObject(this);
-                    Console.WriteLine("the json is: " + toSend);
-                    return toSend;
-
-        }
+       public String getJson()
+       {
+           Login login = new Login{Command="Login", PhoneNumber=123456789};
+            var str = JsonConvert.SerializeObject(login);
+            System.Console.WriteLine(str);
+            return str;
+       }
     }
 }
