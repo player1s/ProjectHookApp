@@ -48,14 +48,13 @@ public class T3T2SocketServer implements ISocketServer {
     }
 
     @Override
-    public void SendLogin(String OTP) {
+    public void Respond(String Response) {
 
         PrintStream p = null;
-        System.out.println("sendlogin entered");
         try {
             p = new PrintStream(acceptConn.getOutputStream());
-            p.println(OTP);
-            System.out.println("sent");
+            p.println(Response);
+            System.out.println("sent: " + Response);
         } catch (IOException e) {
             e.printStackTrace();
         }

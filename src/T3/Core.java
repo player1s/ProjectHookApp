@@ -1,5 +1,7 @@
 package T3;
 
+import com.google.gson.Gson;
+
 public class Core {
 
     public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class Core {
 
         IDatabase db = new Database();
         ISocketServer scktSrvr = new T3T2SocketServer();
+        Gson gson = new Gson();
         int port = 1342;
         String OTP = "nuttin' here";
         String[] msgParts;
@@ -28,7 +31,10 @@ public class Core {
             if(cmd.getOrder().equals("Login"));
             {
                 OTP = db.getOTP(cmd.getPhoneNumber());
-                System.out.println("Sending back this as OTP: " + OTP);
+                LoginResponse response = new LoginResponse(OTP);
+                String json = gson.toJson(response);
+                System.out.println("json that gonna be sent back: " + json);
+                scktSrvr.Respond(json);
             }
             scktSrvr.ShutdownServer();
         }
