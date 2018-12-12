@@ -31,7 +31,7 @@ public class Core {
                 scktSrvr.ShutdownServer();
 
             }
-        } 
+        }
 
     }
 
