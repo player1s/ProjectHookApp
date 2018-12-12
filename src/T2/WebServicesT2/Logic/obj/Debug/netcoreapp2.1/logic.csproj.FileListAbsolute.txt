@@ -1,0 +1,11 @@
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\bin\Debug\netcoreapp2.1\logic.deps.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\bin\Debug\netcoreapp2.1\logic.runtimeconfig.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\bin\Debug\netcoreapp2.1\logic.runtimeconfig.dev.json
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\bin\Debug\netcoreapp2.1\logic.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\bin\Debug\netcoreapp2.1\logic.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.csprojAssemblyReference.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.csproj.CoreCompileInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.AssemblyInfoInputs.cache
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.AssemblyInfo.cs
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T2\WebServicesT2\logic\obj\Debug\netcoreapp2.1\logic.pdb
