@@ -11,8 +11,9 @@ namespace Logic
         {
             String toReturn = "Commands: nothing arrived";
             Client client = new Client();
-            Login login = new Login(phonenumber: phonenumber);
-            toReturn =Client.Listen(login);  
+            Login login = new Login(phonenumber);
+            String toSend = login.getJson();
+            toReturn =Client.Listen(toSend);  
             Console.WriteLine("api will see this value {0}",toReturn);
             return toReturn;
 
