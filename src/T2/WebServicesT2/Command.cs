@@ -3,17 +3,18 @@ using Newtonsoft.Json;
 
 namespace Logic
 {   
-    class Login 
+    class Command 
     {
-        public String Command { get; set; }
+        public String Order { get; set; }
         public int PhoneNumber { get; set; }
 
-       public Login()
+       public Command()
        {}
 
-       public String getJson()
+       public String getJson(String command, int phonenumber)
        {
-           Login login = new Login{Command="Login", PhoneNumber=123456789};
+
+           Command login = new Command{Order=command, PhoneNumber=phonenumber};
             var str = JsonConvert.SerializeObject(login);
             System.Console.WriteLine(str);
             return str;

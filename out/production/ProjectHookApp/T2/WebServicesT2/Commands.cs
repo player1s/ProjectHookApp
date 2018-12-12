@@ -7,14 +7,14 @@ namespace Logic
         public Commands()
         {}
 
-        public String login()
+        public String command(String command, int phonenumber)
         {
             String toReturn = "Commands: nothing arrived";
 
             Client client = new Client();
-            Login login = new Login();
+            Command login = new Command();
 
-            String toSend = login.getJson();
+            String toSend = login.getJson(command, phonenumber);
 
             toReturn =Client.Listen(toSend);  
             Console.WriteLine("api will see this value {0}",toReturn);

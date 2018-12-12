@@ -19,7 +19,7 @@ namespace WebServicesT2.Controllers
                     Commands commands = new Commands();
 
 
-            return new string[] { commands.login(), "value2" };
+            return new string[] { commands.command("Login", 123456789), "value2" };
         }
 
         // GET api/values/5
