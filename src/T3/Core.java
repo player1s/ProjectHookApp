@@ -22,7 +22,7 @@ public class Core {
         Gson gson = new Gson();
         int port = 1342;
         String OTP = "nuttin' here";
-        String[] msgParts;
+        String[] msgParts; 
         Command cmd = new Command("base", 127);
 
         while(true) {
