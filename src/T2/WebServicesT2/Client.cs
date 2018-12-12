@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;  
 using System.Net;  
 using System.Net.Sockets;  
@@ -14,11 +15,15 @@ public class Client
         StartClient("Login - 123456789\n");
         }
 */  
-    public static String Listen(String toSend)  
+    public static String Listen(Object obj)  
     {  
         byte[] bytes = new byte[1024];  
         int bytesRec = 0;
-        try  
+        string toSend = JsonConvert.SerializeObject(obj);
+        toSend = toSend + "\n";
+        Console.WriteLine("the big json is: " + toSend);
+
+        try
         {  
            String hostEntry = "localhost";
            IPHostEntry host = Dns.GetHostEntry(hostEntry);  

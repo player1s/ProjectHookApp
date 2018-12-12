@@ -28,9 +28,11 @@ public class Core {
             {
                 phonenumber = Integer.parseInt(msgParts[1]);
                 scktSrvr.SendLogin(db.getOTP(phonenumber));
-                scktSrvr.ShutdownServer();
+
 
             }
+
+            scktSrvr.ShutdownServer();
         }
 
     }

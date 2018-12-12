@@ -3,20 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectHookApp/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectHookApp/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Logic/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Model/IModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/Model/Login.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/Logic/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/Logic/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/Model/IModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/Model/Login.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/bin/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectHookApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectHookApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/Commands.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Debug/netcoreapp2.1/T2T3SocketClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Release/netcoreapp2.1/T2T3SocketClient.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Release/netcoreapp2.1/T2T3SocketClient.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Release/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/Release/netcoreapp2.1/T2T3SocketClient.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/T2T3SocketClient/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Core.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Login.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/WebServicesT2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/project.razor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Release/netcoreapp2.1/WebServicesT2.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Release/netcoreapp2.1/WebServicesT2.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Release/netcoreapp2.1/WebServicesT2.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Release/netcoreapp2.1/WebServicesT2.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Release/netcoreapp2.1/WebServicesT2.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/WebServicesT2.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/WebServicesT2.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/IDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/ISocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/T3T2SocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
@@ -44,7 +81,7 @@
     <session id="721992697">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -93,10 +130,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="445">
               <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="141">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -135,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="188" column="48" lean-forward="true" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+            <state relative-caret-position="3094">
+              <caret line="186" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,7 +228,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="978" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -217,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,16 +272,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="T2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/needed files/gson-2.8.5.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
@@ -287,9 +330,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -298,7 +340,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25248227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +348,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,23 +396,8 @@
     <entry file="file://$PROJECT_DIR$/src/T2/T2T3SocketClient/SocketClientTest.java" />
     <entry file="file://$PROJECT_DIR$/src/T3/IHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/T3/Handler.java" />
-    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tier1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tier1/Client.java" />
     <entry file="file://$PROJECT_DIR$/src/T3/ISocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -394,27 +421,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="188" column="48" lean-forward="true" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+        <state relative-caret-position="3094">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
     <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="141">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="445">
           <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
