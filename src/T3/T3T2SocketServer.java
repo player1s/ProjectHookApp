@@ -1,21 +1,29 @@
 package T3;
 
+import com.google.gson.*;
+
 import java.io.IOException;
 import java.io.PrintStream;
+import java.lang.reflect.Type;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
+
 public class T3T2SocketServer implements ISocketServer {
 
     ServerSocket s1 = null;
     Socket acceptConn = null;
     String[] msgParts = null;
 
+
+
     @Override
-    public String[] StartUpServer(int port) {
+    public Object StartUpServer(int port) {
 
         // default port: 1342;
         String text = "";
+        Gson gson = new Gson();
+        Command cmd = new Command("base", 127);
 
         try {
 
@@ -25,20 +33,18 @@ public class T3T2SocketServer implements ISocketServer {
 
                 this.acceptConn = s1.accept();
 
-
                 Scanner sc = new Scanner(acceptConn.getInputStream());
                 text = sc.nextLine();
+                System.out.println("incoming json: " + text);
+//----------------------------------------------------
+                 cmd = gson.fromJson(text, Command.class);
 
-            msgParts = text.split(" - ");
 
-                for (int i = 0; i < msgParts.length; i++) {
-                    System.out.println("some connected saying:  " + msgParts[i]);
-                }
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return msgParts;
+        return cmd;
     }
 
     @Override
@@ -64,6 +70,7 @@ public class T3T2SocketServer implements ISocketServer {
             e.printStackTrace();
         }
     }
+
 }
 
 

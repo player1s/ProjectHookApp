@@ -19,6 +19,7 @@ public class Client
     {  
         byte[] bytes = new byte[1024];  
         int bytesRec = 0;
+        toSend = toSend + "\n";
 
         try
         {  

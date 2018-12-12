@@ -18,20 +18,18 @@ public class Core {
         IDatabase db = new Database();
         ISocketServer scktSrvr = new T3T2SocketServer();
         int port = 1342;
-        int phonenumber;
+        String OTP = "nuttin' here";
         String[] msgParts;
+        Command cmd = new Command("base", 127);
 
         while(true) {
-            msgParts = scktSrvr.StartUpServer(port);
+            cmd = (Command) scktSrvr.StartUpServer(port);
 
-            if(msgParts[0].equals("Login"))
+            if(cmd.getOrder().equals("Login"));
             {
-                phonenumber = Integer.parseInt(msgParts[1]);
-                scktSrvr.SendLogin(db.getOTP(phonenumber));
-
-
+                OTP = db.getOTP(cmd.getPhoneNumber());
+                System.out.println("Sending back this as OTP: " + OTP);
             }
-
             scktSrvr.ShutdownServer();
         }
 

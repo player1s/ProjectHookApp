@@ -14,8 +14,8 @@ namespace Logic
        public String getJson(String command, int phonenumber)
        {
 
-           Command login = new Command{Order=command, PhoneNumber=phonenumber};
-            var str = JsonConvert.SerializeObject(login);
+           Command order = new Command{Order=command, PhoneNumber=phonenumber};
+            var str = JsonConvert.SerializeObject(order);
             System.Console.WriteLine(str);
             return str;
        }
