@@ -20,7 +20,7 @@ namespace WebServicesT2.Controllers
                     Commands commands = new Commands();
 
 
-            return new string[] { commands.command("Login", 123456789), "value2" };
+            return new string[] { "commands.command(\"Login\", 123456789)", "value2" };
         }
 
         // GET api/values/5
@@ -28,17 +28,20 @@ namespace WebServicesT2.Controllers
         public ActionResult<string> Get(int id)
         {
             Commands commands = new Commands();
-            return commands.command("Login", 123456789);
+            return "commands.command(\"Login\", 123456789)";
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public String Post([FromBody] string value)
         {
+            Commands commands = new Commands();
             System.Console.WriteLine("got dis: {0}", value);
             MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
             System.Console.WriteLine("as for pn: {0}",mLogin.PhoneNumber);
             System.Console.WriteLine("as for pw: {0}",mLogin.Password);
+            return commands.command("Login", mLogin.PhoneNumber, mLogin.Password);
+
 
         }
 

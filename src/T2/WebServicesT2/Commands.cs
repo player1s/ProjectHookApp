@@ -8,7 +8,7 @@ namespace Logic
         public Commands()
         {}
 
-        public String command(String command, int phonenumber)
+        public String command(String command, String phonenumber, String password)
         {
             String toReturn = "Commands: nothing arrived";
             String OTP = "nothing came";
@@ -26,9 +26,25 @@ namespace Logic
 
             OTP = loginResponse.OTP;
 
-            Console.WriteLine("api will see this value {0}",OTP);
+            Console.WriteLine("this gets compared from the db {0}",OTP);
 
-            return OTP;
+            if(OTP == null)
+            {
+                System.Console.WriteLine("returned acc doesnt exist");
+                return "Account does not exist";
+            }
+
+            if (OTP.Equals(password))
+            {
+                System.Console.WriteLine("returned true");
+                return "true";
+            }
+            else
+            {
+                System.Console.WriteLine("returned false");
+                return "false";
+            }
+            
 
         }
     }
