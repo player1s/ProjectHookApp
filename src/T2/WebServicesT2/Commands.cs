@@ -37,12 +37,12 @@ namespace Logic
             if (OTP.Equals(password))
             {
                 System.Console.WriteLine("returned true");
-                return "true";
+                return "Logging in!";
             }
             else
             {
                 System.Console.WriteLine("returned false");
-                return "false";
+                return "Incorrect password";
             }
             
 

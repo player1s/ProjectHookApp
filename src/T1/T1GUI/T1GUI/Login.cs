@@ -29,7 +29,7 @@ namespace T1GUI
             mLogin.PhoneNumber = textBox1.Text;
             mLogin.Password = textBox2.Text;
             System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
-            string s = Client.Login(mLogin).GetAwaiter().GetResult();
+            label3.Text = Client.Login(mLogin).GetAwaiter().GetResult();
             // this.Hide();
             //MatchMaker mm = new MatchMaker();
             //mm.ShowDialog();
@@ -41,6 +41,11 @@ namespace T1GUI
             this.Hide();
             Welcome w = new Welcome();
             w.ShowDialog();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
