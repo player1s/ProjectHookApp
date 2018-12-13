@@ -16,7 +16,7 @@ class Client
 
         HttpClient client = new HttpClient();
 
-        string str = await client.GetStringAsync("http://localhost:5000/api/values/5");
+        string str = await client.GetStringAsync("http://localhost:5000/api/values/5").ConfigureAwait(false);
 
         return str;
         
