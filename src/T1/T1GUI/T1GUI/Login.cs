@@ -25,11 +25,11 @@ namespace T1GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "got to this point";
-            string s = Client.GetData().GetAwaiter().GetResult();
-            //System.Console.WriteLine();
-            label2.Text = s;
-            label1.Text = "this too?";
+            MLogin mLogin = new MLogin();
+            mLogin.PhoneNumber = textBox1.Text;
+            mLogin.Password = textBox2.Text;
+            System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
+            string s = Client.Login(mLogin).GetAwaiter().GetResult();
             // this.Hide();
             //MatchMaker mm = new MatchMaker();
             //mm.ShowDialog();

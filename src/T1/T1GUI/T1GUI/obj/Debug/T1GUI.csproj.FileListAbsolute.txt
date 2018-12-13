@@ -28,3 +28,7 @@ C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.csproj.CoreCompileInputs.cache
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.exe
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\Newtonsoft.Json.dll
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\Newtonsoft.Json.pdb
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\Newtonsoft.Json.xml
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.csproj.CopyComplete

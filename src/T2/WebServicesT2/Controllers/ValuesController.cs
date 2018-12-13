@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Logic;
+using Newtonsoft.Json;
 
 namespace WebServicesT2.Controllers
 {
@@ -34,6 +35,11 @@ namespace WebServicesT2.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            System.Console.WriteLine("got dis: {0}", value);
+            MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
+            System.Console.WriteLine("as for pn: {0}",mLogin.PhoneNumber);
+            System.Console.WriteLine("as for pw: {0}",mLogin.Password);
+
         }
 
         // PUT api/values/5
