@@ -24,9 +24,6 @@ namespace T1GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-              Client client= new Client();
-            client.GetData();
-              
             this.Hide();
             MatchMaker mm = new MatchMaker();
             mm.ShowDialog();
@@ -34,8 +31,6 @@ namespace T1GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-          
-
             this.Hide();
             Welcome w = new Welcome();
             w.ShowDialog();
