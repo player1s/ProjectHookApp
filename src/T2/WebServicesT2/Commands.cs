@@ -26,7 +26,7 @@ namespace Logic
 
             OTP = loginResponse.OTP;
 
-            Console.WriteLine("api will see this value {0}",toReturn);
+            Console.WriteLine("api will see this value {0}",OTP);
 
             return OTP;
 

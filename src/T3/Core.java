@@ -23,7 +23,7 @@ public class Core {
         int port = 1342;
         String OTP = "nuttin' here";
         String[] msgParts; 
-        Command cmd = new Command("base", 127);
+        Command cmd;
 
         while(true) {
             cmd = (Command) scktSrvr.StartUpServer(port);

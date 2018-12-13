@@ -18,5 +18,6 @@ namespace T1GUI
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Welcome());
         }
+    
     }
 }

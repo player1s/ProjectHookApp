@@ -26,7 +26,8 @@ namespace WebServicesT2.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            Commands commands = new Commands();
+            return commands.command("Login", 123456789);
         }
 
         // POST api/values

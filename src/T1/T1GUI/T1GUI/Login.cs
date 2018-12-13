@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace T1GUI
 {
     public partial class Login : Form
@@ -24,13 +25,19 @@ namespace T1GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MatchMaker mm = new MatchMaker();
-            mm.ShowDialog();
+            label1.Text = "got to this point";
+            string s = Client.GetData().GetAwaiter().GetResult();
+            //System.Console.WriteLine();
+            label2.Text = s;
+            label1.Text = "this too?";
+            // this.Hide();
+            //MatchMaker mm = new MatchMaker();
+            //mm.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             this.Hide();
             Welcome w = new Welcome();
             w.ShowDialog();

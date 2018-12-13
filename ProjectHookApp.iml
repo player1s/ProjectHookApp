@@ -20,10 +20,13 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/needed files" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15" />
+      <excludeFolder url="file://$MODULE_DIR$/src/T1/T1GUI/.vs/T1GUI/v15" />
       <excludeFolder url="file://$MODULE_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15" />
       <excludeFolder url="file://$MODULE_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server" />
       <excludeFolder url="file://$MODULE_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3" />
     </content>
+    <content url="file://$MODULE_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />

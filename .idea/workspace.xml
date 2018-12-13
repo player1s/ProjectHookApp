@@ -2,10 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectHookApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectHookApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/dnptype-client.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/project.razor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/ConsumeWebService/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/ChatWindow.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/ChatWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/ChatWindow.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/CreateAccount.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/CreateAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/CreateAccount.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Login.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Login.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Login.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchList.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchList.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchMaker.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchMaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/MatchMaker.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/T1GUI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.ChatWindow.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.CreateAccount.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.Login.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.MatchList.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.MatchMaker.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.Welcome.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Debug/project.razor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/T1GUI/obj/Release/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/.vs/WebServicesT2/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/bin/Debug/netcoreapp2.1/dnptype-client.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/dnptype-client.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/dnptype-client.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Debug/netcoreapp2.1/project.razor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/Release/netcoreapp2.1/dnptype-client.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/dnptype-client.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/ConsumeWebService/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/T1GUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/T1GUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Release/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Release/T1GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T3/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Core.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,7 +199,7 @@
           <entry key="iml" value="1" />
           <entry key="java" value="30" />
           <entry key="jsp" value="1" />
-          <entry key="suo" value="4" />
+          <entry key="suo" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -65,19 +209,19 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="30" />
           <entry key="JSP" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3" />
-          <entry key="java" value="6504" />
+          <entry key="java" value="6535" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSFile" value="3" />
-          <entry key="JAVA" value="6504" />
+          <entry key="JAVA" value="6535" />
         </counts>
       </usages-collector>
     </session>
@@ -87,7 +231,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="765">
               <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,16 +245,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +252,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,11 +262,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/LoginResponse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-              </folding>
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -141,7 +271,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/ISocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -217,7 +347,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -243,7 +373,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,6 +385,19 @@
               <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectHookApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="T1" type="462c0819:PsiDirectoryNode" />
+              <item name="T1GUI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectHookApp" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +415,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +464,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -395,7 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
     <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -417,40 +559,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/LoginResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/ISocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="765">
           <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -458,10 +586,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
