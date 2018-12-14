@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class Database implements IDatabase {
 
     @Override
-    public String getFirstName(int phoneNumber) {
+    public String getFirstName(String phoneNumber) {
 
         String name = null;
         String password = "www";
@@ -25,7 +25,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
                     name =  resultSet.getString("FirstName");
 
             }
@@ -39,7 +39,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getLastName(int phoneNumber) {
+    public String getLastName(String phoneNumber) {
 
         String name = null;
         String password = "www";
@@ -52,7 +52,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
                     name =  resultSet.getString("LastName");
 
             }
@@ -66,7 +66,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getGender(int phoneNumber) {
+    public String getGender(String phoneNumber) {
 
         String name = null;
         String password = "www";
@@ -79,7 +79,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getInt("PhoneNumber")) )
                     name =  resultSet.getString("Gender");
 
             }
@@ -93,7 +93,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getDescription(int phoneNumber) {
+    public String getDescription(String phoneNumber) {
 
         String name = null;
         String password = "www";
@@ -106,7 +106,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getInt("PhoneNumber")) )
                     name =  resultSet.getString("Description");
 
             }
@@ -120,7 +120,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public Double getLocX(int phoneNumber) {
+    public Double getLocX(String phoneNumber) {
         Double name = null;
         String password = "www";
 
@@ -132,7 +132,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
                     name =  resultSet.getDouble("LocX");
 
             }
@@ -147,7 +147,7 @@ public class Database implements IDatabase {
 
 
     @Override
-    public Double getLocY(int phoneNumber) {
+    public Double getLocY(String phoneNumber) {
         Double name = null;
         String password = "www";
 
@@ -159,7 +159,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
                     name =  resultSet.getDouble("LocY");
 
             }
@@ -173,7 +173,7 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getOTP(int phoneNumber) {
+    public String getOTP(String phoneNumber) {
         String name = null;
         String password = "www";
 
@@ -185,7 +185,7 @@ public class Database implements IDatabase {
 
             while (resultSet.next()) {
 
-                if(phoneNumber == resultSet.getInt("PhoneNumber") )
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
                     name =  resultSet.getString("userPassword");
 
             }

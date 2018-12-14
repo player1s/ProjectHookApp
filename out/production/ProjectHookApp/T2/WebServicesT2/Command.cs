@@ -6,12 +6,12 @@ namespace Logic
     class Command 
     {
         public String Order { get; set; }
-        public int PhoneNumber { get; set; }
+        public String PhoneNumber { get; set; }
 
        public Command()
        {}
 
-       public String getJson(String command, int phonenumber)
+       public String getJson(String command, String phonenumber)
        {
 
            Command order = new Command{Order=command, PhoneNumber=phonenumber};

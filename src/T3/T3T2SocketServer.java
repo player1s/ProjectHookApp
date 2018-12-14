@@ -23,7 +23,7 @@ public class T3T2SocketServer implements ISocketServer {
         // default port: 1342;
         String text = "";
         Gson gson = new Gson();
-        Command cmd = new Command("base", 127);
+        Command cmd = new Command("base", "127");
 
         try {
 

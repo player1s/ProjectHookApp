@@ -3,9 +3,9 @@ package T3;
 public class Command {
 
     private String Order;
-    private int PhoneNumber;
+    private String PhoneNumber;
 
-    public Command(String Order, int phonenumber)
+    public Command(String Order, String phonenumber)
     {
         this.Order = Order;
         this.PhoneNumber = phonenumber;
@@ -16,7 +16,7 @@ public class Command {
         return Order;
     }
 
-    public int getPhoneNumber()
+    public String getPhoneNumber()
     {
         return PhoneNumber;
     }
@@ -26,7 +26,7 @@ public class Command {
         this.Order = Order;
     }
 
-    public void setPhoneNumber(int PhoneNumber)
+    public void setPhoneNumber(String PhoneNumber)
     {
         this.PhoneNumber = PhoneNumber;
     }

@@ -4,13 +4,13 @@ import java.sql.Connection;
 
 public interface IDatabase {
 
-    String getFirstName(int phoneNumber);
-    String getLastName(int phoneNumber);
-    String getGender(int phoneNumber);
-    String getDescription(int phoneNumber);
-    Double getLocX(int phoneNumber);
-    Double getLocY(int phoneNumber);
-    String getOTP(int phoneNumber);
+    String getFirstName(String phoneNumber);
+    String getLastName(String phoneNumber);
+    String getGender(String phoneNumber);
+    String getDescription(String phoneNumber);
+    Double getLocX(String phoneNumber);
+    Double getLocY(String phoneNumber);
+    String getOTP(String phoneNumber);
 
 
 

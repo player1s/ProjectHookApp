@@ -28,6 +28,11 @@ namespace T1GUI
             MLogin mLogin = new MLogin();
             mLogin.PhoneNumber = textBox1.Text;
             mLogin.Password = textBox2.Text;
+            if((mLogin.PhoneNumber).Equals("") || mLogin.Password.Equals(""))
+            {
+                mLogin.Password = "none";
+                mLogin.PhoneNumber= "none";
+            }
             System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
             label3.Text = Client.Login(mLogin).GetAwaiter().GetResult();
             // this.Hide();
