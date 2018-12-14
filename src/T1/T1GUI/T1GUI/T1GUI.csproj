@@ -58,6 +58,8 @@
     <Compile Include="ChatWindow.Designer.cs">
       <DependentUpon>ChatWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="MCreateAcc.cs" />
+    <Compile Include="IReqModel.cs" />
     <Compile Include="MLogin.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="CreateAccount.cs">

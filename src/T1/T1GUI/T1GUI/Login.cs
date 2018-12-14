@@ -26,6 +26,7 @@ namespace T1GUI
         private void button1_Click(object sender, EventArgs e)
         {
             MLogin mLogin = new MLogin();
+            mLogin.Command = "Login";
             mLogin.PhoneNumber = textBox1.Text;
             mLogin.Password = textBox2.Text;
             if((mLogin.PhoneNumber).Equals("") || mLogin.Password.Equals(""))

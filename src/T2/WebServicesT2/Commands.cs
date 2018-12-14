@@ -8,7 +8,7 @@ namespace Logic
         public Commands()
         {}
 
-        public String command(String command, String phonenumber, String password)
+        public String Command(String command, String phonenumber, String password)
         {
             String toReturn = "Commands: nothing arrived";
             String OTP = "nothing came";
@@ -47,5 +47,26 @@ namespace Logic
             
 
         }
+
+        public String toCreateAccount(String command, String phonenumber, String password)
+        {
+            String toReturn = "Commands: nothing arrived";
+            String OTP = "nothing came";
+
+            Client client = new Client();
+            Command login = new Command();
+            LoginResponse loginResponse = new LoginResponse();
+
+            String toSend = login.getJson(command, phonenumber);
+
+            toReturn =Client.Listen(toSend); 
+            loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
+ 
+            Console.WriteLine("this was returned {0}",toReturn);
+
+            OTP = loginResponse.OTP;
+
+            Console.WriteLine("this gets compared from the db {0}",OTP);
+
     }
 }
