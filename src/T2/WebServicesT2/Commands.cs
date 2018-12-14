@@ -19,12 +19,13 @@ namespace Logic
 
             String toSend = login.getLoginJson(command, phonenumber);
 
+            System.Console.WriteLine("sending Login");
             toReturn =Client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
             Console.WriteLine("this was returned {0}",toReturn);
 
-            OTP = loginResponse.Responded;
+            OTP = loginResponse.OTP;
 
             Console.WriteLine("this gets compared from the db {0}",OTP);
 
@@ -48,7 +49,7 @@ namespace Logic
 
         }
 
-        public String toCreateAccount(String command, String phonenumber, String firstName, String lastName, String description, String age, String gender)
+        public String toCreateAccount(String command, String phonenumber, String firstName, String lastName, String description, String age, String gender, String password)
         {
             String toReturn = "Commands: nothing arrived";
             String response = "nothing came";
@@ -57,14 +58,15 @@ namespace Logic
             JsonCreator login = new JsonCreator();
             LoginResponse loginResponse = new LoginResponse();
 
-            String toSend = login.getCreateAccJson(command, phonenumber, firstName, lastName, description, age, gender);
+            String toSend = login.getCreateAccJson(command, phonenumber, firstName, lastName, description, age, gender, password);
 
+            System.Console.WriteLine("sending createaccJson");
             toReturn =Client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
             Console.WriteLine("this was returned {0}",toReturn);
 
-            response = loginResponse.Responded;
+            response = loginResponse.OTP;
 
             Console.WriteLine("this gets compared from the db {0}",response);
 

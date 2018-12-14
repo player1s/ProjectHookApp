@@ -27,10 +27,22 @@ public class Core {
 
         while(true) {
             cmd = (Command) scktSrvr.StartUpServer(port);
+            System.out.println("is " + cmd.getOrder() + " equals to login? pc thinks " + (cmd.getOrder().equals("Login")));
 
-            if(cmd.getOrder().equals("Login"));
+            if(cmd.getOrder().equals("Login"))
             {
+                System.out.println("got called");
                 OTP = db.getOTP(cmd.getPhoneNumber());
+                LoginResponse response = new LoginResponse(OTP);
+                String json = gson.toJson(response);
+                System.out.println("json that gonna be sent back: " + json);
+                scktSrvr.Respond(json);
+            }
+
+            if(cmd.getOrder().equals("CreateAcc"))
+            {
+                System.out.println("also dis got called");
+                OTP = db.setupNewUser(cmd.getPhoneNumber(), cmd.getFirstName(), cmd.getLastName(), cmd.getDescription(), cmd.getAge(), cmd.getGender(), cmd.getPassword());
                 LoginResponse response = new LoginResponse(OTP);
                 String json = gson.toJson(response);
                 System.out.println("json that gonna be sent back: " + json);

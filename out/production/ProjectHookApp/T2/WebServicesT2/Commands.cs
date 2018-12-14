@@ -8,17 +8,18 @@ namespace Logic
         public Commands()
         {}
 
-        public String command(String command, String phonenumber, String password)
+        public String toLogIn(String command, String phonenumber, String password)
         {
             String toReturn = "Commands: nothing arrived";
             String OTP = "nothing came";
 
             Client client = new Client();
-            Command login = new Command();
+            JsonCreator login = new JsonCreator();
             LoginResponse loginResponse = new LoginResponse();
 
-            String toSend = login.getJson(command, phonenumber);
+            String toSend = login.getLoginJson(command, phonenumber);
 
+            System.Console.WriteLine("sending Login");
             toReturn =Client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
@@ -47,5 +48,30 @@ namespace Logic
             
 
         }
+
+        public String toCreateAccount(String command, String phonenumber, String firstName, String lastName, String description, String age, String gender, String password)
+        {
+            String toReturn = "Commands: nothing arrived";
+            String response = "nothing came";
+
+            Client client = new Client();
+            JsonCreator login = new JsonCreator();
+            LoginResponse loginResponse = new LoginResponse();
+
+            String toSend = login.getCreateAccJson(command, phonenumber, firstName, lastName, description, age, gender, password);
+
+            System.Console.WriteLine("sending createaccJson");
+            toReturn =Client.Listen(toSend); 
+            loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
+ 
+            Console.WriteLine("this was returned {0}",toReturn);
+
+            response = loginResponse.OTP;
+
+            Console.WriteLine("this gets compared from the db {0}",response);
+
+            return response;
+        }
+
     }
 }

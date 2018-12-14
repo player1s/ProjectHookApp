@@ -21,7 +21,7 @@ namespace T1GUI
         {
             MCreateAcc mCreateAcc = new MCreateAcc();
 
-            if (!(textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox3.Text.Equals("") || textBox4.Text.Equals("") || textBox5.Text.Equals("") || textBox6.Text.Equals("")))
+            if (!(textBox1.Text.Equals("") || textBox2.Text.Equals("") || textBox3.Text.Equals("") || textBox4.Text.Equals("") || textBox5.Text.Equals("") || textBox6.Text.Equals("") || textBox7.Text.Equals("")))
             {
                 
                 mCreateAcc.Command = "CreateAcc";
@@ -31,14 +31,16 @@ namespace T1GUI
                 mCreateAcc.Gender = textBox2.Text;
                 mCreateAcc.Description= textBox3.Text;
                 mCreateAcc.Age = textBox4.Text;
+                mCreateAcc.Password = textBox7.Text;
 
-                System.Console.WriteLine("Bout to send: {0} {1} {2} {3} {4} {5}", mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Gender, mCreateAcc.Description, mCreateAcc.Age);
+                System.Console.WriteLine("Bout to send: {0} {1} {2} {3} {4} {5} {6} {7}",mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Gender, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Password);
                 label5.Text = Client.Login(mCreateAcc).GetAwaiter().GetResult();
 
-
+                /*
                 this.Hide();
                 MatchMaker mm = new MatchMaker();
                 mm.ShowDialog();
+                */
             }
             else
             {
@@ -64,6 +66,11 @@ namespace T1GUI
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

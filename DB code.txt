@@ -12,7 +12,7 @@ create domain PhoneNumber varchar(99);
 create domain OTP varchar(99);
 create domain Age varchar(99)
 
-create table Users(UserID serial, Firstname FirstName, LastName LastName, Gender Gender, Description Description, LocX LocX, LocY LocY, PhoneNumber PhoneNumber, OTP OTP, Age Age, PRIMARY KEY(PhoneNumber));
+create table Users(Firstname FirstName, LastName LastName, Gender Gender, Description Description, LocX LocX, LocY LocY, PhoneNumber PhoneNumber, OTP OTP, Age Age, PRIMARY KEY(PhoneNumber));
 
 
 

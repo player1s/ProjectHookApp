@@ -35,14 +35,33 @@ namespace WebServicesT2.Controllers
         [HttpPost]
         public String Post([FromBody] string value)
         {
-            Commands commands = new Commands();
-            System.Console.WriteLine("got dis: {0}", value);
             MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
+            Commands commands = new Commands();
+            System.Console.WriteLine("got here");
+
+            if(mLogin.Command.Equals("Login"))
+            {
+            System.Console.WriteLine("got dis: {0}", value);
             System.Console.WriteLine("as for pn: {0}",mLogin.PhoneNumber);
             System.Console.WriteLine("as for pw: {0}",mLogin.Password);
-            return commands.command("Login", mLogin.PhoneNumber, mLogin.Password);
+            return commands.toLogIn("Login", mLogin.PhoneNumber, mLogin.Password);
+            }
 
+            if(mLogin.Command.Equals("CreateAcc"))
+            {
+            MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
 
+            System.Console.WriteLine("got dis: {0}", value);
+            System.Console.WriteLine("as for cmd: {0}",mCreateAcc.Command);
+            System.Console.WriteLine("as for pn: {0}",mCreateAcc.PhoneNumber);
+            System.Console.WriteLine("as for first: {0}",mCreateAcc.FirstName);
+            System.Console.WriteLine("as for last: {0}",mCreateAcc.LastName);
+            System.Console.WriteLine("as for desc: {0}",mCreateAcc.Description);
+            System.Console.WriteLine("as for age: {0}",mCreateAcc.Age);
+            return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender);
+            }
+
+            return "nothing here";
         }
 
         // PUT api/values/5

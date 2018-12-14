@@ -1,5 +1,7 @@
 package T3;
 
+import org.postgresql.util.PSQLException;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -197,4 +199,50 @@ public class Database implements IDatabase {
 
         return name;
     }
+
+    @Override
+    public String getAge(String phoneNumber) {
+        String name = null;
+        String password = "www";
+
+        try (Connection connection = DriverManager.getConnection(
+                "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
+
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM public.users");
+
+            while (resultSet.next()) {
+
+                if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
+                    name =  resultSet.getString("Age");
+
+            }
+
+        }  catch (SQLException e) {
+            System.out.println("Connection failure.");
+            e.printStackTrace();
+        }
+
+        return name;
+    }
+
+    @Override
+    public String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw) {
+        String name = "added";
+        String password = "www";
+        MCreateAcc mCreateAcc = new MCreateAcc(phonenumber, firstName, lastName, description, age, gender, password);
+
+        try (Connection connection = DriverManager.getConnection(
+                "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
+
+            Statement statement = connection.createStatement();
+            statement.executeQuery("INSERT INTO users VALUES('" + firstName + "', '"+ lastName + "', '"+gender+"', '"+description+"', 0, 0, '"+phonenumber+"', '"+pw+"', '"+age+"');");
+        }  catch (SQLException e) {
+            System.out.println("Connection failure.");
+            e.printStackTrace();
+        }
+
+        return name;
+    }
+
 }

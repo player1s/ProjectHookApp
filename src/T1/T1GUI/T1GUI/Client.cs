@@ -18,7 +18,7 @@ class Client
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);
-        string url = "http://localhost:5000/api/values";
+        string url = "http://localhost:5000/api/values/";
         HttpClient client = new HttpClient();
         var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
 

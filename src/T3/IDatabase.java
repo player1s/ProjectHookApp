@@ -11,7 +11,16 @@ public interface IDatabase {
     Double getLocX(String phoneNumber);
     Double getLocY(String phoneNumber);
     String getOTP(String phoneNumber);
+    String getAge(String phoneNumber);
 
+    /*
+    String setFirstName();
+    String setLastName();
+    String setGender();
+    String setDescription();
+    String setAge();
+*/
+    String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw);
 
 
 }

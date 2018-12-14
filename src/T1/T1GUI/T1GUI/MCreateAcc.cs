@@ -15,6 +15,8 @@ namespace T1GUI
         public String Age { get; set; }
         public String Description { get; set; }
         public String Gender { get; set; }
+        public String Password { get; set; }
+
 
         public MCreateAcc() { }
     }

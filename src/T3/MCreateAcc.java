@@ -1,19 +1,12 @@
 package T3;
 
-public class Command {
-
-    private String Order;
+public class MCreateAcc {
     private String PhoneNumber;
     private String FirstName;
     private String LastName;
     private String Gender;
     private String Age;
     private String Description;
-    private String Password;
-
-    public String getOrder() {
-        return Order;
-    }
 
     public String getPassword() {
         return Password;
@@ -23,9 +16,17 @@ public class Command {
         Password = password;
     }
 
-    public void setOrder(String order) {
-        Order = order;
+    public MCreateAcc(String phoneNumber, String firstName, String lastName, String gender, String age, String description, String password) {
+        PhoneNumber = phoneNumber;
+        FirstName = firstName;
+        LastName = lastName;
+        Gender = gender;
+        Age = age;
+        Description = description;
+        Password = password;
     }
+
+    private String Password;
 
     public String getPhoneNumber() {
         return PhoneNumber;
@@ -72,16 +73,6 @@ public class Command {
     }
 
     public void setDescription(String description) {
-        Description = description;
-    }
-
-    public Command(String order, String phoneNumber, String firstName, String lastName, String gender, String age, String description) {
-        Order = order;
-        PhoneNumber = phoneNumber;
-        FirstName = firstName;
-        LastName = lastName;
-        Gender = gender;
-        Age = age;
         Description = description;
     }
 }

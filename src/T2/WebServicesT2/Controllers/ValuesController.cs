@@ -32,11 +32,12 @@ namespace WebServicesT2.Controllers
         }
 
         // POST api/values
-        [HttpPost("{id}")]
+        [HttpPost]
         public String Post([FromBody] string value)
         {
             MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
             Commands commands = new Commands();
+            System.Console.WriteLine("got here");
 
             if(mLogin.Command.Equals("Login"))
             {
@@ -57,7 +58,9 @@ namespace WebServicesT2.Controllers
             System.Console.WriteLine("as for last: {0}",mCreateAcc.LastName);
             System.Console.WriteLine("as for desc: {0}",mCreateAcc.Description);
             System.Console.WriteLine("as for age: {0}",mCreateAcc.Age);
-            return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender);
+            System.Console.WriteLine("as for pw: {0}",mCreateAcc.Password);
+
+            return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender, mCreateAcc.Password);
             }
 
             return "nothing here";
