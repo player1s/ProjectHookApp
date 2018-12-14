@@ -5,7 +5,7 @@ namespace Logic
 {   
     class LoginResponse 
     {
-        public String OTP { get; set; }
+        public String Responded { get; set; }
 
        public LoginResponse()
        {}
