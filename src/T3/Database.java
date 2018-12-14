@@ -186,7 +186,7 @@ public class Database implements IDatabase {
             while (resultSet.next()) {
 
                 if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
-                    name =  resultSet.getString("userPassword");
+                    name =  resultSet.getString("otp");
 
             }
 

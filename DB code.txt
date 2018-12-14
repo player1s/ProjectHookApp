@@ -8,7 +8,14 @@ create domain Gender varchar(20);
 create domain Description varchar(9999);
 create domain LocX decimal;
 create domain LocY decimal;
-create domain PhoneNumber integer;
-create domain OTP integer;
+create domain PhoneNumber varchar(99);
+create domain OTP varchar(99);
+create domain Age varchar(99)
 
-create table Users(UserID serial, Firstname FirstName, LastName LastName, Gender Gender, Description Description, LocX LocX, LocY LocY, PhoneNumber PhoneNumber, OTP OTP, PRIMARY KEY(UserID));
+create table Users(UserID serial, Firstname FirstName, LastName LastName, Gender Gender, Description Description, LocX LocX, LocY LocY, PhoneNumber PhoneNumber, OTP OTP, Age Age, PRIMARY KEY(PhoneNumber));
+
+
+
+insert into users values (1, 'Testing', 'Dude', 'm', 'im here to test yall', 16.4, 4976.516, 123456789, 987654321, 1456);
+
+insert into users values (2, 'Querying', 'Dudette', 'f', 'got some tests over here 4 yall', 164.4, 476.516, 1, 1, 1456);
