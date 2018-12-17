@@ -39,7 +39,7 @@ namespace WebServicesT2
             {
                 app.UseHsts();
             }
-
+            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
