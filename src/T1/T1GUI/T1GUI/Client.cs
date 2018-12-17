@@ -18,7 +18,7 @@ class Client
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);
-        string url = "http://localhost:5000/api/login/";
+        string url = "https://localhost:5001/api/login/";
         HttpClient client = new HttpClient();
         var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
 
@@ -31,7 +31,7 @@ class Client
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);
-        string url = "http://localhost:5000/api/createacc/";
+        string url = "https://localhost:5001/api/createacc/";
         HttpClient client = new HttpClient();
         var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
 
@@ -44,7 +44,7 @@ class Client
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);
-        string url = "http://localhost:5000/api/getall/";
+        string url = "https://localhost:5001/api/getall/";
         HttpClient client = new HttpClient();
         var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
 
