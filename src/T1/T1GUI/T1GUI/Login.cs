@@ -39,7 +39,7 @@ namespace T1GUI
                 mLogin.PhoneNumber= "none";
             }
             System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
-            label3.Text = Client.Post(mLogin).GetAwaiter().GetResult();
+            label3.Text = Client.PostLogin(mLogin).GetAwaiter().GetResult();
             if(label3.Text.Equals("Logging in!"))
             {
                 ISession session = new Session(textBox1.Text);

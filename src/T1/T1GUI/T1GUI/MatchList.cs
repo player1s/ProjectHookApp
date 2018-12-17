@@ -39,7 +39,7 @@ namespace T1GUI
         {
             mGetAll.Command = "GetAll";
             mGetAll.PhoneNumber = label3.Text;
-            test = Client.Post(mGetAll).GetAwaiter().GetResult();
+            test = Client.PostGetAll(mGetAll).GetAwaiter().GetResult();
             users = test.Split(',');
             for (int i = 0; i < users.Length; i++)
             {

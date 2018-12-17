@@ -14,11 +14,11 @@ class Client
     }
     */
     public Client() { }
-    public static async Task<string> Post(object obj)
+    public static async Task<string> PostLogin(object obj)
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);
-        string url = "http://localhost:5000/api/values/";
+        string url = "http://localhost:5000/api/login/";
         HttpClient client = new HttpClient();
         var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
 
@@ -26,4 +26,32 @@ class Client
 
         return responseInString;
     }
+
+    public static async Task<string> PostCreateAcc(object obj)
+    {
+        string responseInString;
+        string json = JsonConvert.SerializeObject(obj);
+        string url = "http://localhost:5000/api/createacc/";
+        HttpClient client = new HttpClient();
+        var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
+
+        responseInString = await result.Content.ReadAsStringAsync();
+
+        return responseInString;
+    }
+
+    public static async Task<string> PostGetAll(object obj)
+    {
+        string responseInString;
+        string json = JsonConvert.SerializeObject(obj);
+        string url = "http://localhost:5000/api/getall/";
+        HttpClient client = new HttpClient();
+        var result = await client.PostAsJsonAsync(url, json).ConfigureAwait(false);
+
+        responseInString = await result.Content.ReadAsStringAsync();
+
+        return responseInString;
+    }
+
+
 }
