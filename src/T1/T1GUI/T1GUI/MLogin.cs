@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace T1GUI
 {
+    //Model class for command: Login
+    //this object is instantiated, then serialized & sent in Json form as a HTTP Post request
     class MLogin : IReqModel
     {
         public String Command { get; set; }

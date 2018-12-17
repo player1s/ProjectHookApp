@@ -42,7 +42,6 @@
             this.label1.Size = new System.Drawing.Size(206, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME TO THE HOOKAPP";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnCreateAcc
             // 
@@ -78,7 +77,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Welcome";
             this.Text = "Welcome";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

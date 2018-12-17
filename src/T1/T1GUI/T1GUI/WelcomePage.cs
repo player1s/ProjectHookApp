@@ -16,17 +16,8 @@ namespace T1GUI
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
+        //proceed to create account
         private void btnCreateAcc_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -34,6 +25,7 @@ namespace T1GUI
             ca.ShowDialog();
         }
 
+        //proceed to login
         private void btnLogin_Click(object sender, EventArgs e)
         {
             this.Hide();

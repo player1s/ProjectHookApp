@@ -7,6 +7,7 @@ using System.Collections;
 
 namespace T1GUI
 {
+    // Model class for containing the results of command get all users, so it holds every user (except the one requested the command)
     class PeopleInMatchList
     {
         public ArrayList OtherUsers { get; set; }

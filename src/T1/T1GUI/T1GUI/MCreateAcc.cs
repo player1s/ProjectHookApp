@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace T1GUI
 {
+    // model class for command: Create Account
+    //this object is instantiated, then serialized & sent in Json form as a HTTP Post request
+
     class MCreateAcc : IReqModel
     {
         public String Command { get; set; }

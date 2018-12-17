@@ -12,6 +12,7 @@ namespace T1GUI
 {
     public partial class MatchList : Form
     {
+        // initialize necessary objects & variables
         private string id;
         MGetAll mGetAll = new MGetAll();
         Client client = new Client();
@@ -23,11 +24,13 @@ namespace T1GUI
         public MatchList(String id)
         {
             InitializeComponent();
+
+            //pass on the id with wich one logged in
             this.id = id;
             label3.Text = id;
             
         }
-
+        // this method would have been used for a chat + interest function
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Console.WriteLine(sender.ToString());
@@ -35,6 +38,7 @@ namespace T1GUI
 
         }
 
+        // retrieving all other users from the database
         private void button1_Click(object sender, EventArgs e)
         {
             mGetAll.Command = "GetAll";
@@ -47,6 +51,7 @@ namespace T1GUI
             }
         }
 
+        // proceed to next window
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -54,6 +59,7 @@ namespace T1GUI
             cw.ShowDialog();
         }
 
+        // go back to previous window
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();

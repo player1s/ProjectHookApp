@@ -56,7 +56,6 @@
             this.label1.Size = new System.Drawing.Size(76, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "First Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -87,7 +86,6 @@
             this.label4.Size = new System.Drawing.Size(79, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Description";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox1
             // 
@@ -167,7 +165,6 @@
             this.label6.Size = new System.Drawing.Size(76, 17);
             this.label6.TabIndex = 12;
             this.label6.Text = "Last Name";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox6
             // 
@@ -196,7 +193,6 @@
             this.label8.Size = new System.Drawing.Size(69, 17);
             this.label8.TabIndex = 15;
             this.label8.Text = "Password";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // textBox7
             // 
