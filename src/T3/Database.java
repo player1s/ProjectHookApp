@@ -227,6 +227,37 @@ public class Database implements IDatabase {
     }
 
     @Override
+    public String getAll(String phoneNumber) {
+
+            String name = "";
+            String password = "www";
+
+            try (Connection connection = DriverManager.getConnection(
+                    "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
+
+
+                System.out.println("Connected to PostgreSQL database!");
+
+                Statement statement = connection.createStatement();
+                ResultSet resultSet = statement.executeQuery("SELECT * FROM public.users");
+
+                while (resultSet.next()) {
+
+                    if(!(phoneNumber.equals(resultSet.getString("PhoneNumber"))) )
+                        name +=  resultSet.getString("FirstName") + ",";
+
+                }
+
+            }  catch (SQLException e) {
+                System.out.println("Connection failure.");
+                e.printStackTrace();
+            }
+
+            return name;
+        }
+
+
+    @Override
     public String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw) {
         String name = "added";
         String password = "www";

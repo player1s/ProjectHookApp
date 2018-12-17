@@ -63,6 +63,17 @@ namespace WebServicesT2.Controllers
             return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender, mCreateAcc.Password);
             }
 
+            if(mLogin.Command.Equals("GetAll"))
+            {
+
+            MAllPeople mAllPeople = JsonConvert.DeserializeObject<MAllPeople>(value);
+
+
+            System.Console.WriteLine("got dis: {0}", value);
+            System.Console.WriteLine("as for pn: {0}",mAllPeople.PhoneNumber);
+            return commands.toGetAllPeople("GetAll", mAllPeople.PhoneNumber);
+            }
+
             return "nothing here";
         }
 
@@ -79,6 +90,7 @@ namespace WebServicesT2.Controllers
         }
         
     } 
+    /*
     [Route("api/[controller]")]
     [ApiController]
     public class QwertzController : ControllerBase
@@ -94,5 +106,5 @@ namespace WebServicesT2.Controllers
 
             return new string[] { "commands.command(\"Login\", 123456789)", "value212" };
         }
-    }
+    }*/
 }

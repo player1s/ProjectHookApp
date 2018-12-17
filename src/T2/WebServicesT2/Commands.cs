@@ -73,5 +73,28 @@ namespace Logic
             return response;
         }
 
+        public String toGetAllPeople(String command, String phonenumber)
+        {
+            String toReturn = "Commands: nothing arrived";
+            String OTP = "nothing came";
+
+            Client client = new Client();
+            JsonCreator login = new JsonCreator();
+            LoginResponse loginResponse = new LoginResponse();
+
+            String toSend = login.getAllPplJson(command, phonenumber);
+
+            System.Console.WriteLine("sending getAllPpl");
+            toReturn =Client.Listen(toSend); 
+            loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
+ 
+            Console.WriteLine("this was returned {0}",toReturn);
+
+            OTP = loginResponse.OTP;
+
+            return OTP;
+
+        }
+
     }
 }

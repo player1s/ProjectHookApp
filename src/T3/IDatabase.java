@@ -13,6 +13,8 @@ public interface IDatabase {
     String getOTP(String phoneNumber);
     String getAge(String phoneNumber);
 
+    String getAll(String phoneNumber);
+
     /*
     String setFirstName();
     String setLastName();
@@ -21,6 +23,7 @@ public interface IDatabase {
     String setAge();
 */
     String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw);
+
 
 
 }

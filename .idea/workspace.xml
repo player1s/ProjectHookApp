@@ -4,21 +4,35 @@
     <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/JsonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/JsonCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/IDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/IDatabase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/Login.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MLogin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/T1GUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/T1GUI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/JsonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/JsonCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T3/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T3/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T3/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/IDatabase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
@@ -65,7 +79,7 @@
         <counts>
           <entry key="cs" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="32" />
+          <entry key="java" value="33" />
           <entry key="jsp" value="1" />
           <entry key="suo" value="5" />
           <entry key="txt" value="1" />
@@ -76,7 +90,7 @@
           <entry key="C#" value="1" />
           <entry key="CSFile" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="33" />
           <entry key="JSP" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
@@ -85,14 +99,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3" />
-          <entry key="java" value="7758" />
+          <entry key="java" value="7843" />
           <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSFile" value="3" />
-          <entry key="JAVA" value="7756" />
+          <entry key="JAVA" value="7841" />
           <entry key="PLAIN_TEXT" value="80" />
           <entry key="SQL" value="2" />
         </counts>
@@ -104,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
+            <state relative-caret-position="-46">
               <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="136">
               <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="e#267#268#0" expanded="true" />
@@ -155,11 +169,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="44" column="167" selection-start-line="44" selection-start-column="167" selection-end-line="44" selection-end-column="167" />
+            <state relative-caret-position="363">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/T3/LoginResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -215,17 +238,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="135" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
+            <state relative-caret-position="255">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="233" selection-start-line="233" selection-end-line="233" />
+            <state relative-caret-position="210">
+              <caret line="245" selection-start-line="245" selection-end-line="245" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,17 +305,17 @@
         <option value="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" />
         <option value="$PROJECT_DIR$/DB code.txt" />
         <option value="$PROJECT_DIR$/src/T3/MCreateAcc.java" />
-        <option value="$PROJECT_DIR$/src/T3/Database.java" />
-        <option value="$PROJECT_DIR$/src/T3/IDatabase.java" />
-        <option value="$PROJECT_DIR$/src/T3/Core.java" />
         <option value="$PROJECT_DIR$/src/T3/Command.java" />
+        <option value="$PROJECT_DIR$/src/T3/IDatabase.java" />
+        <option value="$PROJECT_DIR$/src/T3/Database.java" />
+        <option value="$PROJECT_DIR$/src/T3/Core.java" />
       </list>
     </option>
   </component>
   <component name="JavaeeView">
     <option name="showModules" value="false" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -495,23 +518,6 @@
     <entry file="file://$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T3/LoginResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB code.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -556,26 +562,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="135" selection-start-line="22" selection-start-column="135" selection-end-line="22" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        <state relative-caret-position="-46">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/T3/IDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="136">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#267#268#0" expanded="true" />
@@ -613,10 +619,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/T3/LoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/T3/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" column="167" selection-start-line="44" selection-start-column="167" selection-end-line="44" selection-end-column="167" />
+        <state relative-caret-position="363">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T3/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,7 +20,7 @@ namespace WebServicesT2.Controllers
                     Commands commands = new Commands();
 
 
-            return new string[] { "commands.command(\"Login\", 123456789)", "value2" };
+            return new string[] { "commands.command(\"Login\", 123456789)", "value212" };
         }
 
         // GET api/values/5
@@ -58,7 +58,20 @@ namespace WebServicesT2.Controllers
             System.Console.WriteLine("as for last: {0}",mCreateAcc.LastName);
             System.Console.WriteLine("as for desc: {0}",mCreateAcc.Description);
             System.Console.WriteLine("as for age: {0}",mCreateAcc.Age);
-            return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender);
+            System.Console.WriteLine("as for pw: {0}",mCreateAcc.Password);
+
+            return commands.toCreateAccount(mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Gender, mCreateAcc.Password);
+            }
+
+            if(mLogin.Command.Equals("GetAll"))
+            {
+
+            MAllPeople mAllPeople = JsonConvert.DeserializeObject<MAllPeople>(value);
+
+
+            System.Console.WriteLine("got dis: {0}", value);
+            System.Console.WriteLine("as for pn: {0}",mAllPeople.PhoneNumber);
+            return commands.toGetAllPeople("GetAll", mAllPeople.PhoneNumber);
             }
 
             return "nothing here";
@@ -75,5 +88,23 @@ namespace WebServicesT2.Controllers
         public void Delete(int id)
         {
         }
-    }
+        
+    } 
+    /*
+    [Route("api/[controller]")]
+    [ApiController]
+    public class QwertzController : ControllerBase
+    {
+       
+        // GET api/qwertz
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            
+                    Commands commands = new Commands();
+
+
+            return new string[] { "commands.command(\"Login\", 123456789)", "value212" };
+        }
+    }*/
 }

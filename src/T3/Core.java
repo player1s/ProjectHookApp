@@ -48,6 +48,16 @@ public class Core {
                 System.out.println("json that gonna be sent back: " + json);
                 scktSrvr.Respond(json);
             }
+
+            if(cmd.getOrder().equals("GetAll"))
+            {
+                System.out.println("getall called");
+                OTP = db.getAll(cmd.getPhoneNumber());
+                LoginResponse response = new LoginResponse(OTP);
+                String json = gson.toJson(response);
+                System.out.println("json that gonna be sent back: " + json);
+                scktSrvr.Respond(json);
+            }
             scktSrvr.ShutdownServer();
         }
 

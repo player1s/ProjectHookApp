@@ -17,6 +17,7 @@ namespace T1GUI
         Client client = new Client();
         PeopleInMatchList ppl = new PeopleInMatchList();
         string test = "";
+        string[] users;
 
 
         public MatchList(String id)
@@ -37,10 +38,13 @@ namespace T1GUI
         private void button1_Click(object sender, EventArgs e)
         {
             mGetAll.Command = "GetAll";
+            mGetAll.PhoneNumber = label3.Text;
             test = Client.Post(mGetAll).GetAwaiter().GetResult();
-            listBox1.Items.Add("");
-            listBox1.Items.Add("Arif");
-            listBox1.Items.Add("Levente");
+            users = test.Split(',');
+            for (int i = 0; i < users.Length; i++)
+            {
+                listBox1.Items.Add(users[i]);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

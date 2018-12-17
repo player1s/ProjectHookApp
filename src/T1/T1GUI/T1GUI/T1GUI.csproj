@@ -70,6 +70,7 @@
     <Compile Include="CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="PeopleInMatchList.cs" />
     <Compile Include="Session.cs" />
     <Compile Include="WelcomePage.cs">
       <SubType>Form</SubType>

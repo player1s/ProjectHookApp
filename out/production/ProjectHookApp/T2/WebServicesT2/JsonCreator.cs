@@ -35,5 +35,14 @@ namespace Logic
             System.Console.WriteLine(str);
             return str;
        }
+
+       public String getAllPplJson(String command, String phonenumber)
+       {
+
+           JsonCreator order = new JsonCreator{Order=command, PhoneNumber=phonenumber};
+            var str = JsonConvert.SerializeObject(order);
+            System.Console.WriteLine(str);
+            return str;
+       }
     }
 }
