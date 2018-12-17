@@ -13,6 +13,7 @@ namespace T1GUI
 {
     public partial class Login : Form
     {
+        private String id = "Unknown--";
         public Login()
         {
             InitializeComponent();
@@ -28,17 +29,26 @@ namespace T1GUI
             MLogin mLogin = new MLogin();
             mLogin.Command = "Login";
             mLogin.PhoneNumber = textBox1.Text;
+            this.id = textBox1.Text;
             mLogin.Password = textBox2.Text;
+            string id = textBox1.Text;
+             
             if((mLogin.PhoneNumber).Equals("") || mLogin.Password.Equals(""))
             {
                 mLogin.Password = "none";
                 mLogin.PhoneNumber= "none";
             }
             System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
-            label3.Text = Client.Login(mLogin).GetAwaiter().GetResult();
-            // this.Hide();
-            //MatchMaker mm = new MatchMaker();
-            //mm.ShowDialog();
+            label3.Text = Client.Post(mLogin).GetAwaiter().GetResult();
+            if(label3.Text.Equals("Logging in!"))
+            {
+                ISession session = new Session(textBox1.Text);
+                this.Hide();
+                MatchMaker mm = new MatchMaker(id);
+                
+                mm.ShowDialog();
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,6 +62,10 @@ namespace T1GUI
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+        public string getID()
+        {
+            return id;
         }
     }
 }

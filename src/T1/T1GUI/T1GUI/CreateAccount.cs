@@ -34,7 +34,7 @@ namespace T1GUI
                 mCreateAcc.Password = textBox7.Text;
 
                 System.Console.WriteLine("Bout to send: {0} {1} {2} {3} {4} {5} {6} {7}",mCreateAcc.Command, mCreateAcc.PhoneNumber, mCreateAcc.FirstName, mCreateAcc.LastName, mCreateAcc.Gender, mCreateAcc.Description, mCreateAcc.Age, mCreateAcc.Password);
-                label5.Text = Client.Login(mCreateAcc).GetAwaiter().GetResult();
+                label5.Text = Client.Post(mCreateAcc).GetAwaiter().GetResult();
 
                 /*
                 this.Hide();

@@ -20,7 +20,7 @@ namespace WebServicesT2.Controllers
                     Commands commands = new Commands();
 
 
-            return new string[] { "commands.command(\"Login\", 123456789)", "value2" };
+            return new string[] { "commands.command(\"Login\", 123456789)", "value212" };
         }
 
         // GET api/values/5
@@ -76,6 +76,23 @@ namespace WebServicesT2.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+        
+    } 
+    [Route("api/[controller]")]
+    [ApiController]
+    public class QwertzController : ControllerBase
+    {
+       
+        // GET api/qwertz
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            
+                    Commands commands = new Commands();
+
+
+            return new string[] { "commands.command(\"Login\", 123456789)", "value212" };
         }
     }
 }

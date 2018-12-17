@@ -14,7 +14,7 @@ class Client
     }
     */
     public Client() { }
-    public static async Task<string> Login(object obj)
+    public static async Task<string> Post(object obj)
     {
         string responseInString;
         string json = JsonConvert.SerializeObject(obj);

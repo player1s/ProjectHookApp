@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace T1GUI
 {
-    class MLogin : IReqModel
+    class MGetAll : IReqModel
     {
         public String Command { get; set; }
         public String PhoneNumber { get; set; }
-        public String Password { get; set; }
-
-        public MLogin() { }
+        public MGetAll() { }
 
     }
 }

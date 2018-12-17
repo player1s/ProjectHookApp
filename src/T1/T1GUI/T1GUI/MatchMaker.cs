@@ -12,9 +12,12 @@ namespace T1GUI
 {
     public partial class MatchMaker : Form
     {
-        public MatchMaker()
+        private string id;
+        public MatchMaker(String id)
         {
             InitializeComponent();
+            this.id = id;
+            label6.Text = id;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -30,7 +33,7 @@ namespace T1GUI
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MatchList ml = new MatchList();
+            MatchList ml = new MatchList(id);
             ml.ShowDialog();
         }
 

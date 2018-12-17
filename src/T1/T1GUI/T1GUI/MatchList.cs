@@ -12,19 +12,33 @@ namespace T1GUI
 {
     public partial class MatchList : Form
     {
-        public MatchList()
+        private string id;
+        MGetAll mGetAll = new MGetAll();
+        Client client = new Client();
+        PeopleInMatchList ppl = new PeopleInMatchList();
+        string test = "";
+
+
+        public MatchList(String id)
         {
             InitializeComponent();
+            this.id = id;
+            label3.Text = id;
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            Console.WriteLine(sender.ToString());
+            Console.WriteLine(e);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Aelx");
+            mGetAll.Command = "GetAll";
+            test = Client.Post(mGetAll).GetAwaiter().GetResult();
+            listBox1.Items.Add("");
             listBox1.Items.Add("Arif");
             listBox1.Items.Add("Levente");
         }
@@ -39,7 +53,7 @@ namespace T1GUI
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MatchMaker mm = new MatchMaker();
+            MatchMaker mm = new MatchMaker(id);
             mm.ShowDialog();
         }
     }
