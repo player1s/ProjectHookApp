@@ -58,7 +58,6 @@
     <Compile Include="ChatWindow.Designer.cs">
       <DependentUpon>ChatWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="ISession.cs" />
     <Compile Include="MGetAll.cs" />
     <Compile Include="MCreateAcc.cs" />
     <Compile Include="IReqModel.cs" />
@@ -71,7 +70,6 @@
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
     <Compile Include="PeopleInMatchList.cs" />
-    <Compile Include="Session.cs" />
     <Compile Include="WelcomePage.cs">
       <SubType>Form</SubType>
     </Compile>
