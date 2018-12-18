@@ -25,7 +25,7 @@ namespace WebServicesT2.Controllers
         public String Post([FromBody] string value)
         {
             MAllPeople mAllPeople = JsonConvert.DeserializeObject<MAllPeople>(value);
-            Commands commands = new Commands();
+            ICommands commands = new Commands();
             System.Console.WriteLine("get all here");
 
             if(mAllPeople.Command.Equals("GetAll"))

@@ -25,7 +25,7 @@ namespace WebServicesT2.Controllers
         public String Post([FromBody] string value)
         {
             MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
-            Commands commands = new Commands();
+            ICommands commands = new Commands();
             System.Console.WriteLine("got here");
 
             if(mCreateAcc.Command.Equals("CreateAcc"))
