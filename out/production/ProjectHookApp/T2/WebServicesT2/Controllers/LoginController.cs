@@ -25,7 +25,7 @@ namespace WebServicesT2.Controllers
         [HttpPost]
         public String Post([FromBody] string value)
         {
-            MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
+            Model.MLogin mLogin = JsonConvert.DeserializeObject<Model.MLogin>(value);
             ICommands commands = new Commands();
             System.Console.WriteLine("LoginController Called");
 

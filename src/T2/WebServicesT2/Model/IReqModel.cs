@@ -1,6 +1,6 @@
 using System;
 
-namespace Logic
+namespace Model
 {   
     //interface for models to standardize the minimum sendable message/object
     interface IReqModel 

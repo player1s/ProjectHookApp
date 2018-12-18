@@ -24,7 +24,7 @@ namespace WebServicesT2.Controllers
         [HttpPost]
         public String Post([FromBody] string value)
         {
-            MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
+            Model.MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<Model.MCreateAcc>(value);
             ICommands commands = new Commands();
             System.Console.WriteLine("got here");
 

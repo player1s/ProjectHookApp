@@ -1,6 +1,6 @@
 using System;
 
-namespace Logic
+namespace Model
 {   
     //A model class implementing IReqModel, 
     //can be instantiated to contain the necessary information for creating a new user in the system
