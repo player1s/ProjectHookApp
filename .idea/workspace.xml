@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44e08fc-be99-4288-974d-3800c5c2399a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T1/T1GUI/.vs/T1GUI/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/JsonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/JsonCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/MAllPeople.cs" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T2/WebServicesT2/MAllPeople.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Core.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/IDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/IDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/T3T2SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectHookApp/T3/T3T2SocketServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/.vs/T1GUI/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MGetAll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MGetAll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/MatchMaker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/bin/Debug/T1GUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T1/T1GUI/T1GUI/obj/Debug/T1GUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Commands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/CreateAccController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/CreateAccController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/GetAllController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/GetAllController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/JsonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/JsonCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/MAllPeople.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/MAllPeople.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/bin/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/obj/Debug/netcoreapp2.1/WebServicesT2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/IDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/T3/T3T2SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/T2/WebServicesT2/Controllers/LoginController.cs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="src/T1/T1GUI/.vs/T1GUI/v15/.suo" />
@@ -125,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-133">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -364,7 +333,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -461,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/src/T3/T3T2SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>

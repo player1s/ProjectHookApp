@@ -8,22 +8,25 @@ using Newtonsoft.Json;
 
 namespace WebServicesT2.Controllers
 {
+    // controller for endpoint ~/api/CreateAcc in the webAPI
     [Route("api/[controller]")]
     [ApiController]
     public class CreateAccController : ControllerBase
     {
       
         // POST api/values
+        //If a request arrives for this endpoint, this method will run.
+        //intentionally having a single post request, as other functions are located in other requests 
         [HttpPost]
         public String Post([FromBody] string value)
         {
-            MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
+            MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
             Commands commands = new Commands();
             System.Console.WriteLine("got here");
 
-            if(mLogin.Command.Equals("CreateAcc"))
+            if(mCreateAcc.Command.Equals("CreateAcc"))
             {
-            MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
+           // MCreateAcc mCreateAcc = JsonConvert.DeserializeObject<MCreateAcc>(value);
 
             System.Console.WriteLine("got dis: {0}", value);
             System.Console.WriteLine("as for cmd: {0}",mCreateAcc.Command);

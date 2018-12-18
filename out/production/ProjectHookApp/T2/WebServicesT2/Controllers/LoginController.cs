@@ -8,11 +8,17 @@ using Newtonsoft.Json;
 
 namespace WebServicesT2.Controllers
 {
+        // controller for endpoint ~/api/Login in the webAPI
+
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
-      
+    /*
+    *    If a request arrives for this endpoint, this method will run.
+    *    intentionally having a single post request, as other functions are located in other requests 
+    *    1, create 
+    */
         // POST api/values
         [HttpPost]
         public String Post([FromBody] string value)
