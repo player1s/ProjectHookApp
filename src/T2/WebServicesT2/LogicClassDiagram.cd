@@ -17,14 +17,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Logic.Core">
-    <Position X="4" Y="4.5" Width="1.5" />
+    <Position X="7.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Logic\Core.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.JsonCreator" BaseTypeListCollapsed="true">
-    <Position X="5.75" Y="4.5" Width="1.75" />
+    <Position X="4" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAEAAEAAAAAgAACABUAAQQAAAAQAAAgCAAAAAAAAAAg=</HashCode>
       <FileName>Logic\JsonCreator.cs</FileName>
@@ -32,7 +32,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Logic.LoginResponse" BaseTypeListCollapsed="true">
-    <Position X="7.5" Y="4.5" Width="1.5" />
+    <Position X="5.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Logic\LoginResponse.cs</FileName>

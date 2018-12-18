@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Model.MAllPeople" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="Model.MAllPeople" BaseTypeListCollapsed="true">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAQAARQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -8,7 +8,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Model.MCreateAcc" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="Model.MCreateAcc" BaseTypeListCollapsed="true">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAgAACAAEAARAAAAAAAAAACAAAAAAAAAAg=</HashCode>
@@ -16,7 +16,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Model.MLogin" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="Model.MLogin" BaseTypeListCollapsed="true">
     <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAAAAACAAAAAAAAAAA=</HashCode>
@@ -24,7 +24,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Interface Name="Model.IReqModel" Collapsed="true">
+  <Interface Name="Model.IReqModel">
     <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAA=</HashCode>

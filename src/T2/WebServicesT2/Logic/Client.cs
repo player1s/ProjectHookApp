@@ -12,6 +12,7 @@ public class Client : IClient
     public Client()
     {}  
     // the method that is responsible for communicating with the database tier via sockets
+    //Listen method sends a string in json format that definitely has at least two attributes: Order, Phonenumber. order is to the higher tiers to know what function is rquested. Phonenumber: identification, who requests it.
     public String Listen(String toSend)  
     {  
         byte[] bytes = new byte[1024];  
