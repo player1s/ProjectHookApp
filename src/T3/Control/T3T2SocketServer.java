@@ -1,5 +1,6 @@
-package T3;
+package T3.Control;
 
+import T3.Model.Command;
 import com.google.gson.*;
 
 import java.io.*;

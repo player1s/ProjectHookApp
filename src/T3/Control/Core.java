@@ -1,5 +1,7 @@
-package T3;
+package T3.Control;
 
+import T3.Model.Command;
+import T3.Model.LoginResponse;
 import com.google.gson.Gson;
 
 public class Core {

@@ -39,6 +39,7 @@ namespace WebServicesT2
             {
                 app.UseHsts();
             }
+            //enforcing HTTPS connection
             app.UseHttpsRedirection();
             app.UseMvc();
         }

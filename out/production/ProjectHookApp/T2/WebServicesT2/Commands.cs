@@ -9,7 +9,18 @@ namespace Logic
         {}
 
         
-
+        // these methods are being called from the WebAPI controllers.
+        //they all have the same pattern (except for the lofin method, 
+        //password is being compared to the on ein the database in this method, 
+        //whereas other methods leave the necessary comparisons to the database tier.):
+        //1, initialize necessary object, variables
+        //2, through the arguments of the method variables of an object was passed, 
+        //now that will be serialized to Json format using newtonsoft.
+        //3, pass on this Json string containing our object to the socket communications handler
+        //4, get a response Json
+        //5, deserialize the response Json using newtonsoft
+        //6, (as mentioned,  only login: received object from database tier is being compared to the value received from presentation tier)
+        //7, return the response, that was received from database tier
         public String toLogIn(String command, String phonenumber, String password)
         {
             String toReturn = "Commands: nothing arrived";
@@ -50,7 +61,15 @@ namespace Logic
             
 
         }
-
+        
+        //1, initialize necessary object, variables
+        //2, through the arguments of the method variables of an object was passed, 
+        //now that will be serialized to Json format using newtonsoft.
+        //3, pass on this Json string containing our object to the socket communications handler
+        //4, get a response Json
+        //5, deserialize the response Json using newtonsoft
+        //6, (as mentioned,  only login: received object from database tier is being compared to the value received from presentation tier)
+        //7, return the response, that was received from database tier
         public String toCreateAccount(String command, String phonenumber, String firstName, String lastName, String description, String age, String gender, String password)
         {
             String toReturn = "Commands: nothing arrived";
@@ -75,6 +94,14 @@ namespace Logic
             return response;
         }
 
+        //1, initialize necessary object, variables
+        //2, through the arguments of the method variables of an object was passed, 
+        //now that will be serialized to Json format using newtonsoft. And check values that would possibly cause an exception, give safe values
+        //3, pass on this Json string containing our object to the socket communications handler
+        //4, get a response Json
+        //5, deserialize the response Json using newtonsoft
+        //6, (as mentioned,  only login: received object from database tier is being compared to the value received from presentation tier)
+        //7, return the response, that was received from database tier
         public String toGetAllPeople(String command, String phonenumber, String minAge, String maxAge, String gender)
         {
             String toReturn = "Commands: nothing arrived";
@@ -108,6 +135,7 @@ namespace Logic
 
         }
 
+        //makes sure a value is exception safe
         private bool IsDigitsOnly(string str)
         {
             foreach (char c in str)

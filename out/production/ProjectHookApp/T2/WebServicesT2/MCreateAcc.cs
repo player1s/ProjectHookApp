@@ -2,6 +2,8 @@ using System;
 
 namespace Logic
 {   
+    //A model class implementing IReqModel, 
+    //can be instantiated to contain the necessary information for creating a new user in the system
     class MCreateAcc : IReqModel
     {
         public String Command { get; set; }

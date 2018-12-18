@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 namespace Logic
 {   
+    // a class with the responsibility to serialize objects into Json strings
     class JsonCreator 
     {
         public String Order { get; set; }
@@ -19,7 +20,10 @@ namespace Logic
 
        public JsonCreator()
        {}
-
+        //Every method working in a same manner, 
+        //1, get all possible values of an object
+        //2, serialize it using newtonsoft
+        //3, return it
        public String getLoginJson(String command, String phonenumber)
        {
 

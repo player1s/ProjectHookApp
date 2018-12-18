@@ -1,4 +1,4 @@
-package T3;
+package T3.Control;
 
 import java.sql.Connection;
 // interface to create abstraction for the database handling classes

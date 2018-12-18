@@ -13,7 +13,7 @@ namespace WebServicesT2
 {
     public class Program
     {
-        
+        //main entry point for the WEBAPI
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();

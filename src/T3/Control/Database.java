@@ -1,6 +1,4 @@
-package T3;
-
-import org.postgresql.util.PSQLException;
+package T3.Control;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -283,7 +281,6 @@ public class Database implements IDatabase {
     public String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw) {
         String name = "added";
         String password = "www";
-        MCreateAcc mCreateAcc = new MCreateAcc(phonenumber, firstName, lastName, description, age, gender, password);
 
         try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {

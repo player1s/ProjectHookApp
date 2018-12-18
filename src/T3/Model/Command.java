@@ -1,4 +1,4 @@
-package T3;
+package T3.Model;
 // a model class to instantiate the different request object in
 // contains possible data that a request can have
 public class Command {
