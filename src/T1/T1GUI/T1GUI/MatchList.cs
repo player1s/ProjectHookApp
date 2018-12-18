@@ -19,16 +19,22 @@ namespace T1GUI
         PeopleInMatchList ppl = new PeopleInMatchList();
         string test = "";
         string[] users;
+        
 
 
-        public MatchList(String id)
+        public MatchList(String id, String gender, String minAge, String maxAge)
         {
             InitializeComponent();
+
+            
 
             //pass on the id with wich one logged in
             this.id = id;
             label3.Text = id;
-            
+            label10.Text = minAge;
+            label8.Text = maxAge;
+            label4.Text = gender;
+
         }
         // this method would have been used for a chat + interest function
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -43,6 +49,9 @@ namespace T1GUI
         {
             mGetAll.Command = "GetAll";
             mGetAll.PhoneNumber = label3.Text;
+            mGetAll.Gender = label10.Text;
+            mGetAll.MinAge = label8.Text;
+            mGetAll.MaxAge = label4.Text;
             test = Client.PostGetAll(mGetAll).GetAwaiter().GetResult();
             users = test.Split(',');
             for (int i = 0; i < users.Length; i++)
@@ -65,6 +74,21 @@ namespace T1GUI
             this.Hide();
             MatchMaker mm = new MatchMaker(id);
             mm.ShowDialog();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

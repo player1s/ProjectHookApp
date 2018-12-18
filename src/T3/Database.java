@@ -227,12 +227,12 @@ public class Database implements IDatabase {
     }
 
     @Override
-    public String getAll(String phoneNumber) {
+    public String getAll(String phoneNumber, String minAge, String maxAge, String gender) {
 
             String name = "";
             String password = "www";
 
-            try (Connection connection = DriverManager.getConnection(
+                try (Connection connection = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
 
 
@@ -243,9 +243,21 @@ public class Database implements IDatabase {
 
                 while (resultSet.next()) {
 
-                    if(!(phoneNumber.equals(resultSet.getString("PhoneNumber"))) )
-                        name +=  resultSet.getString("FirstName") + ",";
+                    if(gender.equals("no preference set")) {
+                        if ((!(phoneNumber.equals(resultSet.getString("PhoneNumber"))))
+                                && Integer.parseInt(minAge) < Integer.parseInt(resultSet.getString("Age"))
+                                && Integer.parseInt(maxAge) > Integer.parseInt(resultSet.getString("Age")))
+                            name += resultSet.getString("FirstName") + ",";
+                    }
 
+                    else
+                    {
+                        if ((!(phoneNumber.equals(resultSet.getString("PhoneNumber"))))
+                                && Integer.parseInt(minAge) < Integer.parseInt(resultSet.getString("Age"))
+                                && Integer.parseInt(maxAge) > Integer.parseInt(resultSet.getString("Age"))
+                                && gender.equals(resultSet.getString("Gender")))
+                            name += resultSet.getString("FirstName") + ",";
+                    }
                 }
 
             }  catch (SQLException e) {

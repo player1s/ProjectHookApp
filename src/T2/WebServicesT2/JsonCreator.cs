@@ -13,6 +13,8 @@ namespace Logic
         public String Age { get; set; }
         public String Description { get; set; }
         public String Password { get; set; }
+        public String MinAge { get; set; }
+        public String MaxAge { get; set; }
 
 
        public JsonCreator()
@@ -36,10 +38,10 @@ namespace Logic
             return str;
        }
 
-       public String getAllPplJson(String command, String phonenumber)
+       public String getAllPplJson(String command, String phonenumber, String minAge, String maxAge, String gender)
        {
 
-           JsonCreator order = new JsonCreator{Order=command, PhoneNumber=phonenumber};
+           JsonCreator order = new JsonCreator{Order=command, PhoneNumber=phonenumber, MinAge = minAge, MaxAge = maxAge, Gender = gender };
             var str = JsonConvert.SerializeObject(order);
             System.Console.WriteLine(str);
             return str;

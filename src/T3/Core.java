@@ -52,7 +52,7 @@ public class Core {
             if(cmd.getOrder().equals("GetAll"))
             {
                 System.out.println("getall called");
-                OTP = db.getAll(cmd.getPhoneNumber());
+                OTP = db.getAll(cmd.getPhoneNumber(), cmd.getMinAge(), cmd.getMaxAge(), cmd.getGender());
                 LoginResponse response = new LoginResponse(OTP);
                 String json = gson.toJson(response);
                 System.out.println("json that gonna be sent back: " + json);
@@ -62,5 +62,4 @@ public class Core {
         }
 
     }
-
 }

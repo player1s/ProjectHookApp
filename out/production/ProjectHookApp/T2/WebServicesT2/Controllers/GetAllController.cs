@@ -19,7 +19,7 @@ namespace WebServicesT2.Controllers
         {
             MLogin mLogin = JsonConvert.DeserializeObject<MLogin>(value);
             Commands commands = new Commands();
-            System.Console.WriteLine("got here");
+            System.Console.WriteLine("get all here");
 
             if(mLogin.Command.Equals("GetAll"))
             {
@@ -29,7 +29,10 @@ namespace WebServicesT2.Controllers
 
             System.Console.WriteLine("got dis: {0}", value);
             System.Console.WriteLine("as for pn: {0}",mAllPeople.PhoneNumber);
-            return commands.toGetAllPeople("GetAll", mAllPeople.PhoneNumber);
+            System.Console.WriteLine("as for gender: {0}",mAllPeople.Gender);
+            System.Console.WriteLine("as for minage: {0}",mAllPeople.MinAge);
+            System.Console.WriteLine("as for maxage: {0}",mAllPeople.MaxAge);
+            return commands.toGetAllPeople("GetAll", mAllPeople.PhoneNumber,mAllPeople.Gender,mAllPeople.MinAge,mAllPeople.MaxAge);
             }
 
             return "nothing here";

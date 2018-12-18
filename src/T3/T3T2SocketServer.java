@@ -2,8 +2,12 @@ package T3;
 
 import com.google.gson.*;
 
-import java.io.IOException;
-import java.io.PrintStream;
+import javax.net.ServerSocketFactory;
+import javax.net.ssl.SSLServerSocket;
+import javax.net.ssl.SSLServerSocketFactory;
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
+import java.io.*;
 import java.lang.reflect.Type;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -26,6 +30,24 @@ public class T3T2SocketServer implements ISocketServer {
         Command cmd = null;
 
         try {
+/*
+            ServerSocketFactory factory = SSLServerSocketFactory.getDefault();
+
+            try (ServerSocket listener = factory.createServerSocket(port)) {
+                ((SSLServerSocket) listener).setNeedClientAuth(true);
+                ((SSLServerSocket) listener).setEnabledCipherSuites(
+                        new String[] { "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256"});
+                ((SSLServerSocket) listener).setEnabledProtocols(
+                        new String[] { "TLSv1.2"});
+                System.out.println("server runnin' on port: " + port);
+                while (true) {
+                    try (Socket socket = listener.accept()) {
+                        PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+                        out.println("Hello World!");
+                    }
+                }
+            }
+*/
 
              this.s1 = new ServerSocket(port);
 

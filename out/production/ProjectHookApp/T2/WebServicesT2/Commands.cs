@@ -8,6 +8,8 @@ namespace Logic
         public Commands()
         {}
 
+        
+
         public String toLogIn(String command, String phonenumber, String password)
         {
             String toReturn = "Commands: nothing arrived";
@@ -73,16 +75,26 @@ namespace Logic
             return response;
         }
 
-        public String toGetAllPeople(String command, String phonenumber)
+        public String toGetAllPeople(String command, String phonenumber, String minAge, String maxAge, String gender)
         {
             String toReturn = "Commands: nothing arrived";
             String OTP = "nothing came";
+
+            if(!(IsDigitsOnly(minAge)))
+            {
+                minAge = "0";
+            }
+
+            if(!(IsDigitsOnly(maxAge)))
+            {
+                maxAge = "9999";
+            }
 
             Client client = new Client();
             JsonCreator login = new JsonCreator();
             LoginResponse loginResponse = new LoginResponse();
 
-            String toSend = login.getAllPplJson(command, phonenumber);
+            String toSend = login.getAllPplJson(command, phonenumber, minAge, maxAge, gender);
 
             System.Console.WriteLine("sending getAllPpl");
             toReturn =Client.Listen(toSend); 
@@ -94,6 +106,17 @@ namespace Logic
 
             return OTP;
 
+        }
+
+        private bool IsDigitsOnly(string str)
+        {
+            foreach (char c in str)
+            {
+                if (c < '0' || c > '9')
+                    return false;
+            }
+
+            return true;
         }
 
     }

@@ -13,7 +13,7 @@ public interface IDatabase {
     String getOTP(String phoneNumber);
     String getAge(String phoneNumber);
 
-    String getAll(String phoneNumber);
+    String getAll(String phoneNumber, String minAge, String maxAge, String gender);
 
     /*
     String setFirstName();
