@@ -8,13 +8,8 @@ public class Client
 {  
 
     public Client()
-    {} 
-/*
-    public static void Main(String[] args)  
-        {
-        StartClient("Login - 123456789\n");
-        }
-*/  
+    {}  
+    // the method that is responsible for communicating with the database tier via sockets
     public static String Listen(String toSend)  
     {  
         byte[] bytes = new byte[1024];  
@@ -27,6 +22,7 @@ public class Client
            IPHostEntry host = Dns.GetHostEntry(hostEntry);  
            IPAddress ipAddress = host.AddressList[0];  
 
+            // identifying possible host ip addressres
            for (int i = 0; i < host.AddressList.Length; i++)
            {
                 Console.WriteLine(host.AddressList[i]);
@@ -54,10 +50,12 @@ public class Client
                 int bytesSent = sender.Send(msg);  
                 Console.WriteLine("msg sent");
 
+                // receive response from database tier
                 bytesRec = sender.Receive(bytes);  
                 Console.WriteLine("Echoed test = {0}",  
                     Encoding.ASCII.GetString(bytes, 0, bytesRec)); 
 
+                // close the connection
                 sender.Shutdown(SocketShutdown.Both);  
                 sender.Close();  
                 Console.WriteLine("released");
@@ -81,6 +79,7 @@ public class Client
         {  
             Console.WriteLine(e.ToString());  
         }  
+        //return the answer of the database tier to the request before
         return Encoding.ASCII.GetString(bytes, 0, bytesRec);
     }   
 }

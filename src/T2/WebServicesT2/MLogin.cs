@@ -2,6 +2,8 @@ using System;
 
 namespace Logic
 {   
+    //A model class implementing IReqModel, 
+    //can be instantiated to contain the necessary information for loggin in to the system
     class MLogin : IReqModel
     {
         public String Command { get; set; }
