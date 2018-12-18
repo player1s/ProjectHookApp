@@ -2,17 +2,12 @@ package T3;
 
 import com.google.gson.*;
 
-import javax.net.ServerSocketFactory;
-import javax.net.ssl.SSLServerSocket;
-import javax.net.ssl.SSLServerSocketFactory;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
-import java.lang.reflect.Type;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
+//class with the responsibility to communicate with the logic layer via sockets and deserialize the incoming json
 public class T3T2SocketServer implements ISocketServer {
 
     ServerSocket s1 = null;
@@ -20,7 +15,13 @@ public class T3T2SocketServer implements ISocketServer {
     String[] msgParts = null;
 
 
-
+    //this method starts the socket server
+    //works as:
+    //1, initialize required variables
+    //2, establish the serversocket on the specified port
+    //3, listen for incoming requests
+    //4, accept it
+    //5, deserialize the incoming json
     @Override
     public Object StartUpServer(int port) {
 
@@ -30,25 +31,6 @@ public class T3T2SocketServer implements ISocketServer {
         Command cmd = null;
 
         try {
-/*
-            ServerSocketFactory factory = SSLServerSocketFactory.getDefault();
-
-            try (ServerSocket listener = factory.createServerSocket(port)) {
-                ((SSLServerSocket) listener).setNeedClientAuth(true);
-                ((SSLServerSocket) listener).setEnabledCipherSuites(
-                        new String[] { "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256"});
-                ((SSLServerSocket) listener).setEnabledProtocols(
-                        new String[] { "TLSv1.2"});
-                System.out.println("server runnin' on port: " + port);
-                while (true) {
-                    try (Socket socket = listener.accept()) {
-                        PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-                        out.println("Hello World!");
-                    }
-                }
-            }
-*/
-
              this.s1 = new ServerSocket(port);
 
             System.out.println("server runnin' on port: " + port);
@@ -58,7 +40,6 @@ public class T3T2SocketServer implements ISocketServer {
                 Scanner sc = new Scanner(acceptConn.getInputStream());
                 text = sc.nextLine();
                 System.out.println("incoming json: " + text);
-//----------------------------------------------------
                  cmd = gson.fromJson(text, Command.class);
 
 
@@ -69,6 +50,9 @@ public class T3T2SocketServer implements ISocketServer {
         return cmd;
     }
 
+    //this method is responsible for sending messages via the previously established (the server) socket connection
+    // socket connection s1 was not closed so after initializing the right objects,
+    // the communication channel  can be alive once again
     @Override
     public void Respond(String Response) {
 
@@ -82,6 +66,7 @@ public class T3T2SocketServer implements ISocketServer {
         }
     }
 
+    //method that is responsible for terminating the socket connection, once the request was completed
     @Override
     public void ShutdownServer() {
         try {

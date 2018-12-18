@@ -1,5 +1,6 @@
 package T3;
 
+//A model class, to contain the object based on which a new user is created in the database
 public class MCreateAcc {
     private String PhoneNumber;
     private String FirstName;

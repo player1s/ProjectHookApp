@@ -1,7 +1,7 @@
 package T3;
 
 import java.sql.Connection;
-
+// interface to create abstraction for the database handling classes
 public interface IDatabase {
 
     String getFirstName(String phoneNumber);
@@ -15,13 +15,6 @@ public interface IDatabase {
 
     String getAll(String phoneNumber, String minAge, String maxAge, String gender);
 
-    /*
-    String setFirstName();
-    String setLastName();
-    String setGender();
-    String setDescription();
-    String setAge();
-*/
     String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw);
 
 
