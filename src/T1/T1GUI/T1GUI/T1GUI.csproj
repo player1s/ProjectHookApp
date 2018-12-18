@@ -52,66 +52,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChatWindow.cs">
+    <Compile Include="GUIElements\ChatWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChatWindow.Designer.cs">
+    <Compile Include="GUIElements\ChatWindow.Designer.cs">
       <DependentUpon>ChatWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="MGetAll.cs" />
-    <Compile Include="MCreateAcc.cs" />
-    <Compile Include="IReqModel.cs" />
-    <Compile Include="MLogin.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="CreateAccount.cs">
+    <Compile Include="Logic\IClient.cs" />
+    <Compile Include="Model\MGetAll.cs" />
+    <Compile Include="Model\MCreateAcc.cs" />
+    <Compile Include="Model\IReqModel.cs" />
+    <Compile Include="Model\MLogin.cs" />
+    <Compile Include="Logic\Client.cs" />
+    <Compile Include="GUIElements\CreateAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreateAccount.Designer.cs">
+    <Compile Include="GUIElements\CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="PeopleInMatchList.cs" />
-    <Compile Include="WelcomePage.cs">
+    <Compile Include="Model\PeopleInMatchList.cs" />
+    <Compile Include="GUIElements\WelcomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomePage.Designer.cs">
+    <Compile Include="GUIElements\WelcomePage.Designer.cs">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="GUIElements\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="GUIElements\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatchMaker.cs">
+    <Compile Include="GUIElements\MatchMaker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatchMaker.Designer.cs">
+    <Compile Include="GUIElements\MatchMaker.Designer.cs">
       <DependentUpon>MatchMaker.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatchList.cs">
+    <Compile Include="GUIElements\MatchList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatchList.Designer.cs">
+    <Compile Include="GUIElements\MatchList.Designer.cs">
       <DependentUpon>MatchList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Logic\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ChatWindow.resx">
+    <EmbeddedResource Include="GUIElements\ChatWindow.resx">
       <DependentUpon>ChatWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CreateAccount.resx">
+    <EmbeddedResource Include="GUIElements\CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomePage.resx">
+    <EmbeddedResource Include="GUIElements\WelcomePage.resx">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="GUIElements\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatchMaker.resx">
+    <EmbeddedResource Include="GUIElements\MatchMaker.resx">
       <DependentUpon>MatchMaker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MatchList.resx">
+    <EmbeddedResource Include="GUIElements\MatchList.resx">
       <DependentUpon>MatchList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -26,6 +26,7 @@ namespace T1GUI
             mLogin.PhoneNumber = textBox1.Text;
             mLogin.Password = textBox2.Text;
             string id = textBox1.Text;
+            IClient client = new Client();
              
             //if statement to to eliminate the chances of inputting illegal values, that would cause exceptions
             if((mLogin.PhoneNumber).Equals("") || mLogin.Password.Equals(""))
@@ -36,7 +37,7 @@ namespace T1GUI
 
             // make the request
             System.Console.WriteLine("Bout to send: {0} {1}", mLogin.PhoneNumber, mLogin.Password);
-            label3.Text = Client.PostLogin(mLogin).GetAwaiter().GetResult();
+            label3.Text = client.PostLogin(mLogin).GetAwaiter().GetResult();
 
             //if statement to determine a successful login
             if(label3.Text.Equals("Logging in!"))

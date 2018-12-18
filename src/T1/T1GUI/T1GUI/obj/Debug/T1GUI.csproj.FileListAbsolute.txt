@@ -33,3 +33,4 @@ C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.csproj.CopyComplete
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\System.Net.Http.Formatting.dll
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\System.Net.Http.Formatting.xml
+C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.csprojAssemblyReference.cache

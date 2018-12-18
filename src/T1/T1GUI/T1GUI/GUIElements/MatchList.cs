@@ -34,6 +34,7 @@ namespace T1GUI
             label10.Text = minAge;
             label8.Text = maxAge;
             label4.Text = gender;
+            IClient client = new Client();
 
         }
         // this method would have been used for a chat + interest function
@@ -52,7 +53,7 @@ namespace T1GUI
             mGetAll.Gender = label10.Text;
             mGetAll.MinAge = label8.Text;
             mGetAll.MaxAge = label4.Text;
-            test = Client.PostGetAll(mGetAll).GetAwaiter().GetResult();
+            test = client.PostGetAll(mGetAll).GetAwaiter().GetResult();
             users = test.Split(',');
             for (int i = 0; i < users.Length; i++)
             {
