@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 namespace Logic
 {   
     // a class with the responsibility to serialize objects into Json strings
-    class JsonCreator 
+    class JsonCreator : IJsonCreator
     {
         public String Order { get; set; }
         public String PhoneNumber { get; set; }

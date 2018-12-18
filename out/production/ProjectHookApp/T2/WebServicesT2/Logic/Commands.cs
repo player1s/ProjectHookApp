@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Logic
 {
-    class Commands 
+    class Commands : ICommands
     {
         public Commands()
         {}
@@ -33,7 +33,7 @@ namespace Logic
             String toSend = login.getLoginJson(command, phonenumber);
 
             System.Console.WriteLine("sending Login");
-            toReturn =Client.Listen(toSend); 
+            toReturn =client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
             Console.WriteLine("this was returned {0}",toReturn);
@@ -82,7 +82,7 @@ namespace Logic
             String toSend = login.getCreateAccJson(command, phonenumber, firstName, lastName, description, age, gender, password);
 
             System.Console.WriteLine("sending createaccJson");
-            toReturn =Client.Listen(toSend); 
+            toReturn =client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
             Console.WriteLine("this was returned {0}",toReturn);
@@ -124,7 +124,7 @@ namespace Logic
             String toSend = login.getAllPplJson(command, phonenumber, minAge, maxAge, gender);
 
             System.Console.WriteLine("sending getAllPpl");
-            toReturn =Client.Listen(toSend); 
+            toReturn =client.Listen(toSend); 
             loginResponse = JsonConvert.DeserializeObject<LoginResponse>(toReturn);
  
             Console.WriteLine("this was returned {0}",toReturn);

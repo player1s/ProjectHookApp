@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="T1GUI.ChatWindow">
+    <Position X="12.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAABAAAACAAAACAAgIAAAAEAAQAAAAAgA=</HashCode>
+      <FileName>GUIElements\ChatWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.CreateAccount">
+    <Position X="15.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAASAAABCAAACAAABCIAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>GUIElements\CreateAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.Login">
+    <Position X="18.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>GUIElements\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.MatchList">
+    <Position X="1" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAUAACAAABCAABCAAAACAAA4AAAIAHABRAAAAgA=</HashCode>
+      <FileName>GUIElements\MatchList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.MatchMaker">
+    <Position X="9" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAACAQAACAAABAAAQCAgQBCAAAYAAAAEGAAAAAAAgA=</HashCode>
+      <FileName>GUIElements\MatchMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.Welcome">
+    <Position X="5.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAABAAAASAAAACAAAACAAAAAAAAABAAAA=</HashCode>
+      <FileName>GUIElements\WelcomePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.Client" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="9.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Logic\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="T1GUI.Program">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Logic\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.MCreateAcc" BaseTypeListCollapsed="true">
+    <Position X="15" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgAACAAEAARAAAAAAAAAACAAAAAAAAAAg=</HashCode>
+      <FileName>Model\MCreateAcc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="T1GUI.MGetAll" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAQAARQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\MGetAll.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="T1GUI.MLogin" BaseTypeListCollapsed="true">
+    <Position X="10" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\MLogin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="T1GUI.PeopleInMatchList">
+    <Position X="4.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\PeopleInMatchList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.Properties.Resources">
+    <Position X="21" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T1GUI.Properties.Settings">
+    <Position X="19" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="T1GUI.IClient">
+    <Position X="0.75" Y="8" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAACAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Logic\IClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="T1GUI.IReqModel">
+    <Position X="12.5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IReqModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
