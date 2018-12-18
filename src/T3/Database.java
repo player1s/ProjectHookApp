@@ -8,23 +8,29 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+//class with a responsibility to make calls to a PostgreSQL database, stored locally
 public class Database implements IDatabase {
 
+
+    //every method (ecept the last two, getall(), setupnewuser()) works the same as this one. last two individually described
     @Override
     public String getFirstName(String phoneNumber) {
-
+        // set up password
         String name = null;
         String password = "www";
 
+        // try to connect to the database
         try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
 
 
             System.out.println("Connected to PostgreSQL database!");
 
+            // create the statement object, which later on gets executed in the connected database
            Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM public.users");
 
+            //the result is being written to a variable, which gets returned
             while (resultSet.next()) {
 
                 if(phoneNumber.equals(resultSet.getString("PhoneNumber")) )
@@ -226,6 +232,7 @@ public class Database implements IDatabase {
         return name;
     }
 
+    // until the resultset, same process
     @Override
     public String getAll(String phoneNumber, String minAge, String maxAge, String gender) {
 
@@ -241,6 +248,9 @@ public class Database implements IDatabase {
                 Statement statement = connection.createStatement();
                 ResultSet resultSet = statement.executeQuery("SELECT * FROM public.users");
 
+                //here the difference is that we need to decide whether the search preference is male, or female, or both.
+                    // i opted for creating an if-else when both genders are being searched for, then gender is not a criteria
+                    //and when a specific gender is being searched for then the passed down variable is indeed a criteria.
                 while (resultSet.next()) {
 
                     if(gender.equals("no preference set")) {
@@ -268,7 +278,7 @@ public class Database implements IDatabase {
             return name;
         }
 
-
+        // also the same process but until the statement
     @Override
     public String setupNewUser(String phonenumber, String firstName, String lastName, String description, String age, String gender, String pw) {
         String name = "added";
@@ -278,6 +288,7 @@ public class Database implements IDatabase {
         try (Connection connection = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/postgres", "postgres", password)) {
 
+            // this is the only statement that is not SELECT, as we are creating an account with this method
             Statement statement = connection.createStatement();
             statement.executeQuery("INSERT INTO users VALUES('" + firstName + "', '"+ lastName + "', '"+gender+"', '"+description+"', 0, 0, '"+phonenumber+"', '"+pw+"', '"+age+"');");
         }  catch (SQLException e) {

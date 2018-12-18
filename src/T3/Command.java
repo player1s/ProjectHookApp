@@ -1,5 +1,6 @@
 package T3;
-
+// a model class to instantiate the different request object in
+// contains possible data that a request can have
 public class Command {
 
     private String Order;
