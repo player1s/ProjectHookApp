@@ -16,7 +16,6 @@ C:\Users\Alex\source\repos\T1GUI\T1GUI\obj\Debug\T1GUI.MatchMaker.resources
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\T1GUI.exe.config
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\T1GUI.exe
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\bin\Debug\T1GUI.pdb
-C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.csprojAssemblyReference.cache
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.ChatWindow.resources
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.CreateAccount.resources
 C:\mindenJoSHasztalan\UniversityAndStuff\SEP3\Github\ProjectHookApp\src\T1\T1GUI\T1GUI\obj\Debug\T1GUI.Welcome.resources
