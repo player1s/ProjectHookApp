@@ -5,12 +5,13 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import static org.junit.jupiter.api.Assertions.*;
 
 //class with a responsibility to make calls to a PostgreSQL database, stored locally
 public class Database implements IDatabase {
 
 
-    //every method (ecept the last two, getall(), setupnewuser()) works the same as this one. last two individually described
+    //every method (ecxept the last two, getall(), setupnewuser()) works the same as this one. last two individually described
     @Override
     public String getFirstName(String phoneNumber) {
         // set up password
@@ -272,6 +273,8 @@ public class Database implements IDatabase {
                 System.out.println("Connection failure.");
                 e.printStackTrace();
             }
+
+           // assertEquals("Any other name,", name);
 
             return name;
         }
